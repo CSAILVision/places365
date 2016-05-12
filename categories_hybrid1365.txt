@@ -1,0 +1,1365 @@
+n01440764 tench, Tinca tinca 0
+n01443537 goldfish, Carassius auratus 1
+n01484850 great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias 2
+n01491361 tiger shark, Galeocerdo cuvieri 3
+n01494475 hammerhead, hammerhead shark 4
+n01496331 electric ray, crampfish, numbfish, torpedo 5
+n01498041 stingray 6
+n01514668 cock 7
+n01514859 hen 8
+n01518878 ostrich, Struthio camelus 9
+n01530575 brambling, Fringilla montifringilla 10
+n01531178 goldfinch, Carduelis carduelis 11
+n01532829 house finch, linnet, Carpodacus mexicanus 12
+n01534433 junco, snowbird 13
+n01537544 indigo bunting, indigo finch, indigo bird, Passerina cyanea 14
+n01558993 robin, American robin, Turdus migratorius 15
+n01560419 bulbul 16
+n01580077 jay 17
+n01582220 magpie 18
+n01592084 chickadee 19
+n01601694 water ouzel, dipper 20
+n01608432 kite 21
+n01614925 bald eagle, American eagle, Haliaeetus leucocephalus 22
+n01616318 vulture 23
+n01622779 great grey owl, great gray owl, Strix nebulosa 24
+n01629819 European fire salamander, Salamandra salamandra 25
+n01630670 common newt, Triturus vulgaris 26
+n01631663 eft 27
+n01632458 spotted salamander, Ambystoma maculatum 28
+n01632777 axolotl, mud puppy, Ambystoma mexicanum 29
+n01641577 bullfrog, Rana catesbeiana 30
+n01644373 tree frog, tree-frog 31
+n01644900 tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui 32
+n01664065 loggerhead, loggerhead turtle, Caretta caretta 33
+n01665541 leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea 34
+n01667114 mud turtle 35
+n01667778 terrapin 36
+n01669191 box turtle, box tortoise 37
+n01675722 banded gecko 38
+n01677366 common iguana, iguana, Iguana iguana 39
+n01682714 American chameleon, anole, Anolis carolinensis 40
+n01685808 whiptail, whiptail lizard 41
+n01687978 agama 42
+n01688243 frilled lizard, Chlamydosaurus kingi 43
+n01689811 alligator lizard 44
+n01692333 Gila monster, Heloderma suspectum 45
+n01693334 green lizard, Lacerta viridis 46
+n01694178 African chameleon, Chamaeleo chamaeleon 47
+n01695060 Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis 48
+n01697457 African crocodile, Nile crocodile, Crocodylus niloticus 49
+n01698640 American alligator, Alligator mississipiensis 50
+n01704323 triceratops 51
+n01728572 thunder snake, worm snake, Carphophis amoenus 52
+n01728920 ringneck snake, ring-necked snake, ring snake 53
+n01729322 hognose snake, puff adder, sand viper 54
+n01729977 green snake, grass snake 55
+n01734418 king snake, kingsnake 56
+n01735189 garter snake, grass snake 57
+n01737021 water snake 58
+n01739381 vine snake 59
+n01740131 night snake, Hypsiglena torquata 60
+n01742172 boa constrictor, Constrictor constrictor 61
+n01744401 rock python, rock snake, Python sebae 62
+n01748264 Indian cobra, Naja naja 63
+n01749939 green mamba 64
+n01751748 sea snake 65
+n01753488 horned viper, cerastes, sand viper, horned asp, Cerastes cornutus 66
+n01755581 diamondback, diamondback rattlesnake, Crotalus adamanteus 67
+n01756291 sidewinder, horned rattlesnake, Crotalus cerastes 68
+n01768244 trilobite 69
+n01770081 harvestman, daddy longlegs, Phalangium opilio 70
+n01770393 scorpion 71
+n01773157 black and gold garden spider, Argiope aurantia 72
+n01773549 barn spider, Araneus cavaticus 73
+n01773797 garden spider, Aranea diademata 74
+n01774384 black widow, Latrodectus mactans 75
+n01774750 tarantula 76
+n01775062 wolf spider, hunting spider 77
+n01776313 tick 78
+n01784675 centipede 79
+n01795545 black grouse 80
+n01796340 ptarmigan 81
+n01797886 ruffed grouse, partridge, Bonasa umbellus 82
+n01798484 prairie chicken, prairie grouse, prairie fowl 83
+n01806143 peacock 84
+n01806567 quail 85
+n01807496 partridge 86
+n01817953 African grey, African gray, Psittacus erithacus 87
+n01818515 macaw 88
+n01819313 sulphur-crested cockatoo, Kakatoe galerita, Cacatua galerita 89
+n01820546 lorikeet 90
+n01824575 coucal 91
+n01828970 bee eater 92
+n01829413 hornbill 93
+n01833805 hummingbird 94
+n01843065 jacamar 95
+n01843383 toucan 96
+n01847000 drake 97
+n01855032 red-breasted merganser, Mergus serrator 98
+n01855672 goose 99
+n01860187 black swan, Cygnus atratus 100
+n01871265 tusker 101
+n01872401 echidna, spiny anteater, anteater 102
+n01873310 platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus 103
+n01877812 wallaby, brush kangaroo 104
+n01882714 koala, koala bear, kangaroo bear, native bear, Phascolarctos cinereus 105
+n01883070 wombat 106
+n01910747 jellyfish 107
+n01914609 sea anemone, anemone 108
+n01917289 brain coral 109
+n01924916 flatworm, platyhelminth 110
+n01930112 nematode, nematode worm, roundworm 111
+n01943899 conch 112
+n01944390 snail 113
+n01945685 slug 114
+n01950731 sea slug, nudibranch 115
+n01955084 chiton, coat-of-mail shell, sea cradle, polyplacophore 116
+n01968897 chambered nautilus, pearly nautilus, nautilus 117
+n01978287 Dungeness crab, Cancer magister 118
+n01978455 rock crab, Cancer irroratus 119
+n01980166 fiddler crab 120
+n01981276 king crab, Alaska crab, Alaskan king crab, Alaska king crab, Paralithodes camtschatica 121
+n01983481 American lobster, Northern lobster, Maine lobster, Homarus americanus 122
+n01984695 spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish 123
+n01985128 crayfish, crawfish, crawdad, crawdaddy 124
+n01986214 hermit crab 125
+n01990800 isopod 126
+n02002556 white stork, Ciconia ciconia 127
+n02002724 black stork, Ciconia nigra 128
+n02006656 spoonbill 129
+n02007558 flamingo 130
+n02009229 little blue heron, Egretta caerulea 131
+n02009912 American egret, great white heron, Egretta albus 132
+n02011460 bittern 133
+n02012849 crane 134
+n02013706 limpkin, Aramus pictus 135
+n02017213 European gallinule, Porphyrio porphyrio 136
+n02018207 American coot, marsh hen, mud hen, water hen, Fulica americana 137
+n02018795 bustard 138
+n02025239 ruddy turnstone, Arenaria interpres 139
+n02027492 red-backed sandpiper, dunlin, Erolia alpina 140
+n02028035 redshank, Tringa totanus 141
+n02033041 dowitcher 142
+n02037110 oystercatcher, oyster catcher 143
+n02051845 pelican 144
+n02056570 king penguin, Aptenodytes patagonica 145
+n02058221 albatross, mollymawk 146
+n02066245 grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus 147
+n02071294 killer whale, killer, orca, grampus, sea wolf, Orcinus orca 148
+n02074367 dugong, Dugong dugon 149
+n02077923 sea lion 150
+n02085620 Chihuahua 151
+n02085782 Japanese spaniel 152
+n02085936 Maltese dog, Maltese terrier, Maltese 153
+n02086079 Pekinese, Pekingese, Peke 154
+n02086240 Shih-Tzu 155
+n02086646 Blenheim spaniel 156
+n02086910 papillon 157
+n02087046 toy terrier 158
+n02087394 Rhodesian ridgeback 159
+n02088094 Afghan hound, Afghan 160
+n02088238 basset, basset hound 161
+n02088364 beagle 162
+n02088466 bloodhound, sleuthhound 163
+n02088632 bluetick 164
+n02089078 black-and-tan coonhound 165
+n02089867 Walker hound, Walker foxhound 166
+n02089973 English foxhound 167
+n02090379 redbone 168
+n02090622 borzoi, Russian wolfhound 169
+n02090721 Irish wolfhound 170
+n02091032 Italian greyhound 171
+n02091134 whippet 172
+n02091244 Ibizan hound, Ibizan Podenco 173
+n02091467 Norwegian elkhound, elkhound 174
+n02091635 otterhound, otter hound 175
+n02091831 Saluki, gazelle hound 176
+n02092002 Scottish deerhound, deerhound 177
+n02092339 Weimaraner 178
+n02093256 Staffordshire bullterrier, Staffordshire bull terrier 179
+n02093428 American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier 180
+n02093647 Bedlington terrier 181
+n02093754 Border terrier 182
+n02093859 Kerry blue terrier 183
+n02093991 Irish terrier 184
+n02094114 Norfolk terrier 185
+n02094258 Norwich terrier 186
+n02094433 Yorkshire terrier 187
+n02095314 wire-haired fox terrier 188
+n02095570 Lakeland terrier 189
+n02095889 Sealyham terrier, Sealyham 190
+n02096051 Airedale, Airedale terrier 191
+n02096177 cairn, cairn terrier 192
+n02096294 Australian terrier 193
+n02096437 Dandie Dinmont, Dandie Dinmont terrier 194
+n02096585 Boston bull, Boston terrier 195
+n02097047 miniature schnauzer 196
+n02097130 giant schnauzer 197
+n02097209 standard schnauzer 198
+n02097298 Scotch terrier, Scottish terrier, Scottie 199
+n02097474 Tibetan terrier, chrysanthemum dog 200
+n02097658 silky terrier, Sydney silky 201
+n02098105 soft-coated wheaten terrier 202
+n02098286 West Highland white terrier 203
+n02098413 Lhasa, Lhasa apso 204
+n02099267 flat-coated retriever 205
+n02099429 curly-coated retriever 206
+n02099601 golden retriever 207
+n02099712 Labrador retriever 208
+n02099849 Chesapeake Bay retriever 209
+n02100236 German short-haired pointer 210
+n02100583 vizsla, Hungarian pointer 211
+n02100735 English setter 212
+n02100877 Irish setter, red setter 213
+n02101006 Gordon setter 214
+n02101388 Brittany spaniel 215
+n02101556 clumber, clumber spaniel 216
+n02102040 English springer, English springer spaniel 217
+n02102177 Welsh springer spaniel 218
+n02102318 cocker spaniel, English cocker spaniel, cocker 219
+n02102480 Sussex spaniel 220
+n02102973 Irish water spaniel 221
+n02104029 kuvasz 222
+n02104365 schipperke 223
+n02105056 groenendael 224
+n02105162 malinois 225
+n02105251 briard 226
+n02105412 kelpie 227
+n02105505 komondor 228
+n02105641 Old English sheepdog, bobtail 229
+n02105855 Shetland sheepdog, Shetland sheep dog, Shetland 230
+n02106030 collie 231
+n02106166 Border collie 232
+n02106382 Bouvier des Flandres, Bouviers des Flandres 233
+n02106550 Rottweiler 234
+n02106662 German shepherd, German shepherd dog, German police dog, alsatian 235
+n02107142 Doberman, Doberman pinscher 236
+n02107312 miniature pinscher 237
+n02107574 Greater Swiss Mountain dog 238
+n02107683 Bernese mountain dog 239
+n02107908 Appenzeller 240
+n02108000 EntleBucher 241
+n02108089 boxer 242
+n02108422 bull mastiff 243
+n02108551 Tibetan mastiff 244
+n02108915 French bulldog 245
+n02109047 Great Dane 246
+n02109525 Saint Bernard, St Bernard 247
+n02109961 Eskimo dog, husky 248
+n02110063 malamute, malemute, Alaskan malamute 249
+n02110185 Siberian husky 250
+n02110341 dalmatian, coach dog, carriage dog 251
+n02110627 affenpinscher, monkey pinscher, monkey dog 252
+n02110806 basenji 253
+n02110958 pug, pug-dog 254
+n02111129 Leonberg 255
+n02111277 Newfoundland, Newfoundland dog 256
+n02111500 Great Pyrenees 257
+n02111889 Samoyed, Samoyede 258
+n02112018 Pomeranian 259
+n02112137 chow, chow chow 260
+n02112350 keeshond 261
+n02112706 Brabancon griffon 262
+n02113023 Pembroke, Pembroke Welsh corgi 263
+n02113186 Cardigan, Cardigan Welsh corgi 264
+n02113624 toy poodle 265
+n02113712 miniature poodle 266
+n02113799 standard poodle 267
+n02113978 Mexican hairless 268
+n02114367 timber wolf, grey wolf, gray wolf, Canis lupus 269
+n02114548 white wolf, Arctic wolf, Canis lupus tundrarum 270
+n02114712 red wolf, maned wolf, Canis rufus, Canis niger 271
+n02114855 coyote, prairie wolf, brush wolf, Canis latrans 272
+n02115641 dingo, warrigal, warragal, Canis dingo 273
+n02115913 dhole, Cuon alpinus 274
+n02116738 African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus 275
+n02117135 hyena, hyaena 276
+n02119022 red fox, Vulpes vulpes 277
+n02119789 kit fox, Vulpes macrotis 278
+n02120079 Arctic fox, white fox, Alopex lagopus 279
+n02120505 grey fox, gray fox, Urocyon cinereoargenteus 280
+n02123045 tabby, tabby cat 281
+n02123159 tiger cat 282
+n02123394 Persian cat 283
+n02123597 Siamese cat, Siamese 284
+n02124075 Egyptian cat 285
+n02125311 cougar, puma, catamount, mountain lion, painter, panther, Felis concolor 286
+n02127052 lynx, catamount 287
+n02128385 leopard, Panthera pardus 288
+n02128757 snow leopard, ounce, Panthera uncia 289
+n02128925 jaguar, panther, Panthera onca, Felis onca 290
+n02129165 lion, king of beasts, Panthera leo 291
+n02129604 tiger, Panthera tigris 292
+n02130308 cheetah, chetah, Acinonyx jubatus 293
+n02132136 brown bear, bruin, Ursus arctos 294
+n02133161 American black bear, black bear, Ursus americanus, Euarctos americanus 295
+n02134084 ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus 296
+n02134418 sloth bear, Melursus ursinus, Ursus ursinus 297
+n02137549 mongoose 298
+n02138441 meerkat, mierkat 299
+n02165105 tiger beetle 300
+n02165456 ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle 301
+n02167151 ground beetle, carabid beetle 302
+n02168699 long-horned beetle, longicorn, longicorn beetle 303
+n02169497 leaf beetle, chrysomelid 304
+n02172182 dung beetle 305
+n02174001 rhinoceros beetle 306
+n02177972 weevil 307
+n02190166 fly 308
+n02206856 bee 309
+n02219486 ant, emmet, pismire 310
+n02226429 grasshopper, hopper 311
+n02229544 cricket 312
+n02231487 walking stick, walkingstick, stick insect 313
+n02233338 cockroach, roach 314
+n02236044 mantis, mantid 315
+n02256656 cicada, cicala 316
+n02259212 leafhopper 317
+n02264363 lacewing, lacewing fly 318
+n02268443 dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk 319
+n02268853 damselfly 320
+n02276258 admiral 321
+n02277742 ringlet, ringlet butterfly 322
+n02279972 monarch, monarch butterfly, milkweed butterfly, Danaus plexippus 323
+n02280649 cabbage butterfly 324
+n02281406 sulphur butterfly, sulfur butterfly 325
+n02281787 lycaenid, lycaenid butterfly 326
+n02317335 starfish, sea star 327
+n02319095 sea urchin 328
+n02321529 sea cucumber, holothurian 329
+n02325366 wood rabbit, cottontail, cottontail rabbit 330
+n02326432 hare 331
+n02328150 Angora, Angora rabbit 332
+n02342885 hamster 333
+n02346627 porcupine, hedgehog 334
+n02356798 fox squirrel, eastern fox squirrel, Sciurus niger 335
+n02361337 marmot 336
+n02363005 beaver 337
+n02364673 guinea pig, Cavia cobaya 338
+n02389026 sorrel 339
+n02391049 zebra 340
+n02395406 hog, pig, grunter, squealer, Sus scrofa 341
+n02396427 wild boar, boar, Sus scrofa 342
+n02397096 warthog 343
+n02398521 hippopotamus, hippo, river horse, Hippopotamus amphibius 344
+n02403003 ox 345
+n02408429 water buffalo, water ox, Asiatic buffalo, Bubalus bubalis 346
+n02410509 bison 347
+n02412080 ram, tup 348
+n02415577 bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis 349
+n02417914 ibex, Capra ibex 350
+n02422106 hartebeest 351
+n02422699 impala, Aepyceros melampus 352
+n02423022 gazelle 353
+n02437312 Arabian camel, dromedary, Camelus dromedarius 354
+n02437616 llama 355
+n02441942 weasel 356
+n02442845 mink 357
+n02443114 polecat, fitch, foulmart, foumart, Mustela putorius 358
+n02443484 black-footed ferret, ferret, Mustela nigripes 359
+n02444819 otter 360
+n02445715 skunk, polecat, wood pussy 361
+n02447366 badger 362
+n02454379 armadillo 363
+n02457408 three-toed sloth, ai, Bradypus tridactylus 364
+n02480495 orangutan, orang, orangutang, Pongo pygmaeus 365
+n02480855 gorilla, Gorilla gorilla 366
+n02481823 chimpanzee, chimp, Pan troglodytes 367
+n02483362 gibbon, Hylobates lar 368
+n02483708 siamang, Hylobates syndactylus, Symphalangus syndactylus 369
+n02484975 guenon, guenon monkey 370
+n02486261 patas, hussar monkey, Erythrocebus patas 371
+n02486410 baboon 372
+n02487347 macaque 373
+n02488291 langur 374
+n02488702 colobus, colobus monkey 375
+n02489166 proboscis monkey, Nasalis larvatus 376
+n02490219 marmoset 377
+n02492035 capuchin, ringtail, Cebus capucinus 378
+n02492660 howler monkey, howler 379
+n02493509 titi, titi monkey 380
+n02493793 spider monkey, Ateles geoffroyi 381
+n02494079 squirrel monkey, Saimiri sciureus 382
+n02497673 Madagascar cat, ring-tailed lemur, Lemur catta 383
+n02500267 indri, indris, Indri indri, Indri brevicaudatus 384
+n02504013 Indian elephant, Elephas maximus 385
+n02504458 African elephant, Loxodonta africana 386
+n02509815 lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens 387
+n02510455 giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca 388
+n02514041 barracouta, snoek 389
+n02526121 eel 390
+n02536864 coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch 391
+n02606052 rock beauty, Holocanthus tricolor 392
+n02607072 anemone fish 393
+n02640242 sturgeon 394
+n02641379 gar, garfish, garpike, billfish, Lepisosteus osseus 395
+n02643566 lionfish 396
+n02655020 puffer, pufferfish, blowfish, globefish 397
+n02666196 abacus 398
+n02667093 abaya 399
+n02669723 academic gown, academic robe, judge's robe 400
+n02672831 accordion, piano accordion, squeeze box 401
+n02676566 acoustic guitar 402
+n02687172 aircraft carrier, carrier, flattop, attack aircraft carrier 403
+n02690373 airliner 404
+n02692877 airship, dirigible 405
+n02699494 altar 406
+n02701002 ambulance 407
+n02704792 amphibian, amphibious vehicle 408
+n02708093 analog clock 409
+n02727426 apiary, bee house 410
+n02730930 apron 411
+n02747177 ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin 412
+n02749479 assault rifle, assault gun 413
+n02769748 backpack, back pack, knapsack, packsack, rucksack, haversack 414
+n02776631 bakery, bakeshop, bakehouse 415
+n02777292 balance beam, beam 416
+n02782093 balloon 417
+n02783161 ballpoint, ballpoint pen, ballpen, Biro 418
+n02786058 Band Aid 419
+n02787622 banjo 420
+n02788148 bannister, banister, balustrade, balusters, handrail 421
+n02790996 barbell 422
+n02791124 barber chair 423
+n02791270 barbershop 424
+n02793495 barn 425
+n02794156 barometer 426
+n02795169 barrel, cask 427
+n02797295 barrow, garden cart, lawn cart, wheelbarrow 428
+n02799071 baseball 429
+n02802426 basketball 430
+n02804414 bassinet 431
+n02804610 bassoon 432
+n02807133 bathing cap, swimming cap 433
+n02808304 bath towel 434
+n02808440 bathtub, bathing tub, bath, tub 435
+n02814533 beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon 436
+n02814860 beacon, lighthouse, beacon light, pharos 437
+n02815834 beaker 438
+n02817516 bearskin, busby, shako 439
+n02823428 beer bottle 440
+n02823750 beer glass 441
+n02825657 bell cote, bell cot 442
+n02834397 bib 443
+n02835271 bicycle-built-for-two, tandem bicycle, tandem 444
+n02837789 bikini, two-piece 445
+n02840245 binder, ring-binder 446
+n02841315 binoculars, field glasses, opera glasses 447
+n02843684 birdhouse 448
+n02859443 boathouse 449
+n02860847 bobsled, bobsleigh, bob 450
+n02865351 bolo tie, bolo, bola tie, bola 451
+n02869837 bonnet, poke bonnet 452
+n02870880 bookcase 453
+n02871525 bookshop, bookstore, bookstall 454
+n02877765 bottlecap 455
+n02879718 bow 456
+n02883205 bow tie, bow-tie, bowtie 457
+n02892201 brass, memorial tablet, plaque 458
+n02892767 brassiere, bra, bandeau 459
+n02894605 breakwater, groin, groyne, mole, bulwark, seawall, jetty 460
+n02895154 breastplate, aegis, egis 461
+n02906734 broom 462
+n02909870 bucket, pail 463
+n02910353 buckle 464
+n02916936 bulletproof vest 465
+n02917067 bullet train, bullet 466
+n02927161 butcher shop, meat market 467
+n02930766 cab, hack, taxi, taxicab 468
+n02939185 caldron, cauldron 469
+n02948072 candle, taper, wax light 470
+n02950826 cannon 471
+n02951358 canoe 472
+n02951585 can opener, tin opener 473
+n02963159 cardigan 474
+n02965783 car mirror 475
+n02966193 carousel, carrousel, merry-go-round, roundabout, whirligig 476
+n02966687 carpenter's kit, tool kit 477
+n02971356 carton 478
+n02974003 car wheel 479
+n02977058 cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM 480
+n02978881 cassette 481
+n02979186 cassette player 482
+n02980441 castle 483
+n02981792 catamaran 484
+n02988304 CD player 485
+n02992211 cello, violoncello 486
+n02992529 cellular telephone, cellular phone, cellphone, cell, mobile phone 487
+n02999410 chain 488
+n03000134 chainlink fence 489
+n03000247 chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour 490
+n03000684 chain saw, chainsaw 491
+n03014705 chest 492
+n03016953 chiffonier, commode 493
+n03017168 chime, bell, gong 494
+n03018349 china cabinet, china closet 495
+n03026506 Christmas stocking 496
+n03028079 church, church building 497
+n03032252 cinema, movie theater, movie theatre, movie house, picture palace 498
+n03041632 cleaver, meat cleaver, chopper 499
+n03042490 cliff dwelling 500
+n03045698 cloak 501
+n03047690 clog, geta, patten, sabot 502
+n03062245 cocktail shaker 503
+n03063599 coffee mug 504
+n03063689 coffeepot 505
+n03065424 coil, spiral, volute, whorl, helix 506
+n03075370 combination lock 507
+n03085013 computer keyboard, keypad 508
+n03089624 confectionery, confectionary, candy store 509
+n03095699 container ship, containership, container vessel 510
+n03100240 convertible 511
+n03109150 corkscrew, bottle screw 512
+n03110669 cornet, horn, trumpet, trump 513
+n03124043 cowboy boot 514
+n03124170 cowboy hat, ten-gallon hat 515
+n03125729 cradle 516
+n03126707 crane 517
+n03127747 crash helmet 518
+n03127925 crate 519
+n03131574 crib, cot 520
+n03133878 Crock Pot 521
+n03134739 croquet ball 522
+n03141823 crutch 523
+n03146219 cuirass 524
+n03160309 dam, dike, dyke 525
+n03179701 desk 526
+n03180011 desktop computer 527
+n03187595 dial telephone, dial phone 528
+n03188531 diaper, nappy, napkin 529
+n03196217 digital clock 530
+n03197337 digital watch 531
+n03201208 dining table, board 532
+n03207743 dishrag, dishcloth 533
+n03207941 dishwasher, dish washer, dishwashing machine 534
+n03208938 disk brake, disc brake 535
+n03216828 dock, dockage, docking facility 536
+n03218198 dogsled, dog sled, dog sleigh 537
+n03220513 dome 538
+n03223299 doormat, welcome mat 539
+n03240683 drilling platform, offshore rig 540
+n03249569 drum, membranophone, tympan 541
+n03250847 drumstick 542
+n03255030 dumbbell 543
+n03259280 Dutch oven 544
+n03271574 electric fan, blower 545
+n03272010 electric guitar 546
+n03272562 electric locomotive 547
+n03290653 entertainment center 548
+n03291819 envelope 549
+n03297495 espresso maker 550
+n03314780 face powder 551
+n03325584 feather boa, boa 552
+n03337140 file, file cabinet, filing cabinet 553
+n03344393 fireboat 554
+n03345487 fire engine, fire truck 555
+n03347037 fire screen, fireguard 556
+n03355925 flagpole, flagstaff 557
+n03372029 flute, transverse flute 558
+n03376595 folding chair 559
+n03379051 football helmet 560
+n03384352 forklift 561
+n03388043 fountain 562
+n03388183 fountain pen 563
+n03388549 four-poster 564
+n03393912 freight car 565
+n03394916 French horn, horn 566
+n03400231 frying pan, frypan, skillet 567
+n03404251 fur coat 568
+n03417042 garbage truck, dustcart 569
+n03424325 gasmask, respirator, gas helmet 570
+n03425413 gas pump, gasoline pump, petrol pump, island dispenser 571
+n03443371 goblet 572
+n03444034 go-kart 573
+n03445777 golf ball 574
+n03445924 golfcart, golf cart 575
+n03447447 gondola 576
+n03447721 gong, tam-tam 577
+n03450230 gown 578
+n03452741 grand piano, grand 579
+n03457902 greenhouse, nursery, glasshouse 580
+n03459775 grille, radiator grille 581
+n03461385 grocery store, grocery, food market, market 582
+n03467068 guillotine 583
+n03476684 hair slide 584
+n03476991 hair spray 585
+n03478589 half track 586
+n03481172 hammer 587
+n03482405 hamper 588
+n03483316 hand blower, blow dryer, blow drier, hair dryer, hair drier 589
+n03485407 hand-held computer, hand-held microcomputer 590
+n03485794 handkerchief, hankie, hanky, hankey 591
+n03492542 hard disc, hard disk, fixed disk 592
+n03494278 harmonica, mouth organ, harp, mouth harp 593
+n03495258 harp 594
+n03496892 harvester, reaper 595
+n03498962 hatchet 596
+n03527444 holster 597
+n03529860 home theater, home theatre 598
+n03530642 honeycomb 599
+n03532672 hook, claw 600
+n03534580 hoopskirt, crinoline 601
+n03535780 horizontal bar, high bar 602
+n03538406 horse cart, horse-cart 603
+n03544143 hourglass 604
+n03584254 iPod 605
+n03584829 iron, smoothing iron 606
+n03590841 jack-o'-lantern 607
+n03594734 jean, blue jean, denim 608
+n03594945 jeep, landrover 609
+n03595614 jersey, T-shirt, tee shirt 610
+n03598930 jigsaw puzzle 611
+n03599486 jinrikisha, ricksha, rickshaw 612
+n03602883 joystick 613
+n03617480 kimono 614
+n03623198 knee pad 615
+n03627232 knot 616
+n03630383 lab coat, laboratory coat 617
+n03633091 ladle 618
+n03637318 lampshade, lamp shade 619
+n03642806 laptop, laptop computer 620
+n03649909 lawn mower, mower 621
+n03657121 lens cap, lens cover 622
+n03658185 letter opener, paper knife, paperknife 623
+n03661043 library 624
+n03662601 lifeboat 625
+n03666591 lighter, light, igniter, ignitor 626
+n03670208 limousine, limo 627
+n03673027 liner, ocean liner 628
+n03676483 lipstick, lip rouge 629
+n03680355 Loafer 630
+n03690938 lotion 631
+n03691459 loudspeaker, speaker, speaker unit, loudspeaker system, speaker system 632
+n03692522 loupe, jeweler's loupe 633
+n03697007 lumbermill, sawmill 634
+n03706229 magnetic compass 635
+n03709823 mailbag, postbag 636
+n03710193 mailbox, letter box 637
+n03710637 maillot 638
+n03710721 maillot, tank suit 639
+n03717622 manhole cover 640
+n03720891 maraca 641
+n03721384 marimba, xylophone 642
+n03724870 mask 643
+n03729826 matchstick 644
+n03733131 maypole 645
+n03733281 maze, labyrinth 646
+n03733805 measuring cup 647
+n03742115 medicine chest, medicine cabinet 648
+n03743016 megalith, megalithic structure 649
+n03759954 microphone, mike 650
+n03761084 microwave, microwave oven 651
+n03763968 military uniform 652
+n03764736 milk can 653
+n03769881 minibus 654
+n03770439 miniskirt, mini 655
+n03770679 minivan 656
+n03773504 missile 657
+n03775071 mitten 658
+n03775546 mixing bowl 659
+n03776460 mobile home, manufactured home 660
+n03777568 Model T 661
+n03777754 modem 662
+n03781244 monastery 663
+n03782006 monitor 664
+n03785016 moped 665
+n03786901 mortar 666
+n03787032 mortarboard 667
+n03788195 mosque 668
+n03788365 mosquito net 669
+n03791053 motor scooter, scooter 670
+n03792782 mountain bike, all-terrain bike, off-roader 671
+n03792972 mountain tent 672
+n03793489 mouse, computer mouse 673
+n03794056 mousetrap 674
+n03796401 moving van 675
+n03803284 muzzle 676
+n03804744 nail 677
+n03814639 neck brace 678
+n03814906 necklace 679
+n03825788 nipple 680
+n03832673 notebook, notebook computer 681
+n03837869 obelisk 682
+n03838899 oboe, hautboy, hautbois 683
+n03840681 ocarina, sweet potato 684
+n03841143 odometer, hodometer, mileometer, milometer 685
+n03843555 oil filter 686
+n03854065 organ, pipe organ 687
+n03857828 oscilloscope, scope, cathode-ray oscilloscope, CRO 688
+n03866082 overskirt 689
+n03868242 oxcart 690
+n03868863 oxygen mask 691
+n03871628 packet 692
+n03873416 paddle, boat paddle 693
+n03874293 paddlewheel, paddle wheel 694
+n03874599 padlock 695
+n03876231 paintbrush 696
+n03877472 pajama, pyjama, pj's, jammies 697
+n03877845 palace 698
+n03884397 panpipe, pandean pipe, syrinx 699
+n03887697 paper towel 700
+n03888257 parachute, chute 701
+n03888605 parallel bars, bars 702
+n03891251 park bench 703
+n03891332 parking meter 704
+n03895866 passenger car, coach, carriage 705
+n03899768 patio, terrace 706
+n03902125 pay-phone, pay-station 707
+n03903868 pedestal, plinth, footstall 708
+n03908618 pencil box, pencil case 709
+n03908714 pencil sharpener 710
+n03916031 perfume, essence 711
+n03920288 Petri dish 712
+n03924679 photocopier 713
+n03929660 pick, plectrum, plectron 714
+n03929855 pickelhaube 715
+n03930313 picket fence, paling 716
+n03930630 pickup, pickup truck 717
+n03933933 pier 718
+n03935335 piggy bank, penny bank 719
+n03937543 pill bottle 720
+n03938244 pillow 721
+n03942813 ping-pong ball 722
+n03944341 pinwheel 723
+n03947888 pirate, pirate ship 724
+n03950228 pitcher, ewer 725
+n03954731 plane, carpenter's plane, woodworking plane 726
+n03956157 planetarium 727
+n03958227 plastic bag 728
+n03961711 plate rack 729
+n03967562 plow, plough 730
+n03970156 plunger, plumber's helper 731
+n03976467 Polaroid camera, Polaroid Land camera 732
+n03976657 pole 733
+n03977966 police van, police wagon, paddy wagon, patrol wagon, wagon, black Maria 734
+n03980874 poncho 735
+n03982430 pool table, billiard table, snooker table 736
+n03983396 pop bottle, soda bottle 737
+n03991062 pot, flowerpot 738
+n03992509 potter's wheel 739
+n03995372 power drill 740
+n03998194 prayer rug, prayer mat 741
+n04004767 printer 742
+n04005630 prison, prison house 743
+n04008634 projectile, missile 744
+n04009552 projector 745
+n04019541 puck, hockey puck 746
+n04023962 punching bag, punch bag, punching ball, punchball 747
+n04026417 purse 748
+n04033901 quill, quill pen 749
+n04033995 quilt, comforter, comfort, puff 750
+n04037443 racer, race car, racing car 751
+n04039381 racket, racquet 752
+n04040759 radiator 753
+n04041544 radio, wireless 754
+n04044716 radio telescope, radio reflector 755
+n04049303 rain barrel 756
+n04065272 recreational vehicle, RV, R.V. 757
+n04067472 reel 758
+n04069434 reflex camera 759
+n04070727 refrigerator, icebox 760
+n04074963 remote control, remote 761
+n04081281 restaurant, eating house, eating place, eatery 762
+n04086273 revolver, six-gun, six-shooter 763
+n04090263 rifle 764
+n04099969 rocking chair, rocker 765
+n04111531 rotisserie 766
+n04116512 rubber eraser, rubber, pencil eraser 767
+n04118538 rugby ball 768
+n04118776 rule, ruler 769
+n04120489 running shoe 770
+n04125021 safe 771
+n04127249 safety pin 772
+n04131690 saltshaker, salt shaker 773
+n04133789 sandal 774
+n04136333 sarong 775
+n04141076 sax, saxophone 776
+n04141327 scabbard 777
+n04141975 scale, weighing machine 778
+n04146614 school bus 779
+n04147183 schooner 780
+n04149813 scoreboard 781
+n04152593 screen, CRT screen 782
+n04153751 screw 783
+n04154565 screwdriver 784
+n04162706 seat belt, seatbelt 785
+n04179913 sewing machine 786
+n04192698 shield, buckler 787
+n04200800 shoe shop, shoe-shop, shoe store 788
+n04201297 shoji 789
+n04204238 shopping basket 790
+n04204347 shopping cart 791
+n04208210 shovel 792
+n04209133 shower cap 793
+n04209239 shower curtain 794
+n04228054 ski 795
+n04229816 ski mask 796
+n04235860 sleeping bag 797
+n04238763 slide rule, slipstick 798
+n04239074 sliding door 799
+n04243546 slot, one-armed bandit 800
+n04251144 snorkel 801
+n04252077 snowmobile 802
+n04252225 snowplow, snowplough 803
+n04254120 soap dispenser 804
+n04254680 soccer ball 805
+n04254777 sock 806
+n04258138 solar dish, solar collector, solar furnace 807
+n04259630 sombrero 808
+n04263257 soup bowl 809
+n04264628 space bar 810
+n04265275 space heater 811
+n04266014 space shuttle 812
+n04270147 spatula 813
+n04273569 speedboat 814
+n04275548 spider web, spider's web 815
+n04277352 spindle 816
+n04285008 sports car, sport car 817
+n04286575 spotlight, spot 818
+n04296562 stage 819
+n04310018 steam locomotive 820
+n04311004 steel arch bridge 821
+n04311174 steel drum 822
+n04317175 stethoscope 823
+n04325704 stole 824
+n04326547 stone wall 825
+n04328186 stopwatch, stop watch 826
+n04330267 stove 827
+n04332243 strainer 828
+n04335435 streetcar, tram, tramcar, trolley, trolley car 829
+n04336792 stretcher 830
+n04344873 studio couch, day bed 831
+n04346328 stupa, tope 832
+n04347754 submarine, pigboat, sub, U-boat 833
+n04350905 suit, suit of clothes 834
+n04355338 sundial 835
+n04355933 sunglass 836
+n04356056 sunglasses, dark glasses, shades 837
+n04357314 sunscreen, sunblock, sun blocker 838
+n04366367 suspension bridge 839
+n04367480 swab, swob, mop 840
+n04370456 sweatshirt 841
+n04371430 swimming trunks, bathing trunks 842
+n04371774 swing 843
+n04372370 switch, electric switch, electrical switch 844
+n04376876 syringe 845
+n04380533 table lamp 846
+n04389033 tank, army tank, armored combat vehicle, armoured combat vehicle 847
+n04392985 tape player 848
+n04398044 teapot 849
+n04399382 teddy, teddy bear 850
+n04404412 television, television system 851
+n04409515 tennis ball 852
+n04417672 thatch, thatched roof 853
+n04418357 theater curtain, theatre curtain 854
+n04423845 thimble 855
+n04428191 thresher, thrasher, threshing machine 856
+n04429376 throne 857
+n04435653 tile roof 858
+n04442312 toaster 859
+n04443257 tobacco shop, tobacconist shop, tobacconist 860
+n04447861 toilet seat 861
+n04456115 torch 862
+n04458633 totem pole 863
+n04461696 tow truck, tow car, wrecker 864
+n04462240 toyshop 865
+n04465501 tractor 866
+n04467665 trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi 867
+n04476259 tray 868
+n04479046 trench coat 869
+n04482393 tricycle, trike, velocipede 870
+n04483307 trimaran 871
+n04485082 tripod 872
+n04486054 triumphal arch 873
+n04487081 trolleybus, trolley coach, trackless trolley 874
+n04487394 trombone 875
+n04493381 tub, vat 876
+n04501370 turnstile 877
+n04505470 typewriter keyboard 878
+n04507155 umbrella 879
+n04509417 unicycle, monocycle 880
+n04515003 upright, upright piano 881
+n04517823 vacuum, vacuum cleaner 882
+n04522168 vase 883
+n04523525 vault 884
+n04525038 velvet 885
+n04525305 vending machine 886
+n04532106 vestment 887
+n04532670 viaduct 888
+n04536866 violin, fiddle 889
+n04540053 volleyball 890
+n04542943 waffle iron 891
+n04548280 wall clock 892
+n04548362 wallet, billfold, notecase, pocketbook 893
+n04550184 wardrobe, closet, press 894
+n04552348 warplane, military plane 895
+n04553703 washbasin, handbasin, washbowl, lavabo, wash-hand basin 896
+n04554684 washer, automatic washer, washing machine 897
+n04557648 water bottle 898
+n04560804 water jug 899
+n04562935 water tower 900
+n04579145 whiskey jug 901
+n04579432 whistle 902
+n04584207 wig 903
+n04589890 window screen 904
+n04590129 window shade 905
+n04591157 Windsor tie 906
+n04591713 wine bottle 907
+n04592741 wing 908
+n04596742 wok 909
+n04597913 wooden spoon 910
+n04599235 wool, woolen, woollen 911
+n04604644 worm fence, snake fence, snake-rail fence, Virginia fence 912
+n04606251 wreck 913
+n04612504 yawl 914
+n04613696 yurt 915
+n06359193 web site, website, internet site, site 916
+n06596364 comic book 917
+n06785654 crossword puzzle, crossword 918
+n06794110 street sign 919
+n06874185 traffic light, traffic signal, stoplight 920
+n07248320 book jacket, dust cover, dust jacket, dust wrapper 921
+n07565083 menu 922
+n07579787 plate 923
+n07583066 guacamole 924
+n07584110 consomme 925
+n07590611 hot pot, hotpot 926
+n07613480 trifle 927
+n07614500 ice cream, icecream 928
+n07615774 ice lolly, lolly, lollipop, popsicle 929
+n07684084 French loaf 930
+n07693725 bagel, beigel 931
+n07695742 pretzel 932
+n07697313 cheeseburger 933
+n07697537 hotdog, hot dog, red hot 934
+n07711569 mashed potato 935
+n07714571 head cabbage 936
+n07714990 broccoli 937
+n07715103 cauliflower 938
+n07716358 zucchini, courgette 939
+n07716906 spaghetti squash 940
+n07717410 acorn squash 941
+n07717556 butternut squash 942
+n07718472 cucumber, cuke 943
+n07718747 artichoke, globe artichoke 944
+n07720875 bell pepper 945
+n07730033 cardoon 946
+n07734744 mushroom 947
+n07742313 Granny Smith 948
+n07745940 strawberry 949
+n07747607 orange 950
+n07749582 lemon 951
+n07753113 fig 952
+n07753275 pineapple, ananas 953
+n07753592 banana 954
+n07754684 jackfruit, jak, jack 955
+n07760859 custard apple 956
+n07768694 pomegranate 957
+n07802026 hay 958
+n07831146 carbonara 959
+n07836838 chocolate sauce, chocolate syrup 960
+n07860988 dough 961
+n07871810 meat loaf, meatloaf 962
+n07873807 pizza, pizza pie 963
+n07875152 potpie 964
+n07880968 burrito 965
+n07892512 red wine 966
+n07920052 espresso 967
+n07930864 cup 968
+n07932039 eggnog 969
+n09193705 alp 970
+n09229709 bubble 971
+n09246464 cliff, drop, drop-off 972
+n09256479 coral reef 973
+n09288635 geyser 974
+n09332890 lakeside, lakeshore 975
+n09399592 promontory, headland, head, foreland 976
+n09421951 sandbar, sand bar 977
+n09428293 seashore, coast, seacoast, sea-coast 978
+n09468604 valley, vale 979
+n09472597 volcano 980
+n09835506 ballplayer, baseball player 981
+n10148035 groom, bridegroom 982
+n10565667 scuba diver 983
+n11879895 rapeseed 984
+n11939491 daisy 985
+n12057211 yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum 986
+n12144580 corn 987
+n12267677 acorn 988
+n12620546 hip, rose hip, rosehip 989
+n12768682 buckeye, horse chestnut, conker 990
+n12985857 coral fungus 991
+n12998815 agaric 992
+n13037406 gyromitra 993
+n13040303 stinkhorn, carrion fungus 994
+n13044778 earthstar 995
+n13052670 hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa 996
+n13054560 bolete 997
+n13133613 ear, spike, capitulum 998
+n15075141 toilet tissue, toilet paper, bathroom tissue 999
+/a/airfield 1000
+/a/airplane_cabin 1001
+/a/airport_terminal 1002
+/a/alcove 1003
+/a/alley 1004
+/a/amphitheater 1005
+/a/amusement_arcade 1006
+/a/amusement_park 1007
+/a/apartment_building/outdoor 1008
+/a/aquarium 1009
+/a/aqueduct 1010
+/a/arcade 1011
+/a/arch 1012
+/a/archaelogical_excavation 1013
+/a/archive 1014
+/a/arena/hockey 1015
+/a/arena/performance 1016
+/a/arena/rodeo 1017
+/a/army_base 1018
+/a/art_gallery 1019
+/a/art_school 1020
+/a/art_studio 1021
+/a/artists_loft 1022
+/a/assembly_line 1023
+/a/athletic_field/outdoor 1024
+/a/atrium/public 1025
+/a/attic 1026
+/a/auditorium 1027
+/a/auto_factory 1028
+/a/auto_showroom 1029
+/b/badlands 1030
+/b/bakery/shop 1031
+/b/balcony/exterior 1032
+/b/balcony/interior 1033
+/b/ball_pit 1034
+/b/ballroom 1035
+/b/bamboo_forest 1036
+/b/bank_vault 1037
+/b/banquet_hall 1038
+/b/bar 1039
+/b/barn 1040
+/b/barndoor 1041
+/b/baseball_field 1042
+/b/basement 1043
+/b/basketball_court/indoor 1044
+/b/bathroom 1045
+/b/bazaar/indoor 1046
+/b/bazaar/outdoor 1047
+/b/beach 1048
+/b/beach_house 1049
+/b/beauty_salon 1050
+/b/bedchamber 1051
+/b/bedroom 1052
+/b/beer_garden 1053
+/b/beer_hall 1054
+/b/berth 1055
+/b/biology_laboratory 1056
+/b/boardwalk 1057
+/b/boat_deck 1058
+/b/boathouse 1059
+/b/bookstore 1060
+/b/booth/indoor 1061
+/b/botanical_garden 1062
+/b/bow_window/indoor 1063
+/b/bowling_alley 1064
+/b/boxing_ring 1065
+/b/bridge 1066
+/b/building_facade 1067
+/b/bullring 1068
+/b/burial_chamber 1069
+/b/bus_interior 1070
+/b/bus_station/indoor 1071
+/b/butchers_shop 1072
+/b/butte 1073
+/c/cabin/outdoor 1074
+/c/cafeteria 1075
+/c/campsite 1076
+/c/campus 1077
+/c/canal/natural 1078
+/c/canal/urban 1079
+/c/candy_store 1080
+/c/canyon 1081
+/c/car_interior 1082
+/c/carrousel 1083
+/c/castle 1084
+/c/catacomb 1085
+/c/cemetery 1086
+/c/chalet 1087
+/c/chemistry_lab 1088
+/c/childs_room 1089
+/c/church/indoor 1090
+/c/church/outdoor 1091
+/c/classroom 1092
+/c/clean_room 1093
+/c/cliff 1094
+/c/closet 1095
+/c/clothing_store 1096
+/c/coast 1097
+/c/cockpit 1098
+/c/coffee_shop 1099
+/c/computer_room 1100
+/c/conference_center 1101
+/c/conference_room 1102
+/c/construction_site 1103
+/c/corn_field 1104
+/c/corral 1105
+/c/corridor 1106
+/c/cottage 1107
+/c/courthouse 1108
+/c/courtyard 1109
+/c/creek 1110
+/c/crevasse 1111
+/c/crosswalk 1112
+/d/dam 1113
+/d/delicatessen 1114
+/d/department_store 1115
+/d/desert/sand 1116
+/d/desert/vegetation 1117
+/d/desert_road 1118
+/d/diner/outdoor 1119
+/d/dining_hall 1120
+/d/dining_room 1121
+/d/discotheque 1122
+/d/doorway/outdoor 1123
+/d/dorm_room 1124
+/d/downtown 1125
+/d/dressing_room 1126
+/d/driveway 1127
+/d/drugstore 1128
+/e/elevator/door 1129
+/e/elevator_lobby 1130
+/e/elevator_shaft 1131
+/e/embassy 1132
+/e/engine_room 1133
+/e/entrance_hall 1134
+/e/escalator/indoor 1135
+/e/excavation 1136
+/f/fabric_store 1137
+/f/farm 1138
+/f/fastfood_restaurant 1139
+/f/field/cultivated 1140
+/f/field/wild 1141
+/f/field_road 1142
+/f/fire_escape 1143
+/f/fire_station 1144
+/f/fishpond 1145
+/f/flea_market/indoor 1146
+/f/florist_shop/indoor 1147
+/f/food_court 1148
+/f/football_field 1149
+/f/forest/broadleaf 1150
+/f/forest_path 1151
+/f/forest_road 1152
+/f/formal_garden 1153
+/f/fountain 1154
+/g/galley 1155
+/g/garage/indoor 1156
+/g/garage/outdoor 1157
+/g/gas_station 1158
+/g/gazebo/exterior 1159
+/g/general_store/indoor 1160
+/g/general_store/outdoor 1161
+/g/gift_shop 1162
+/g/glacier 1163
+/g/golf_course 1164
+/g/greenhouse/indoor 1165
+/g/greenhouse/outdoor 1166
+/g/grotto 1167
+/g/gymnasium/indoor 1168
+/h/hangar/indoor 1169
+/h/hangar/outdoor 1170
+/h/harbor 1171
+/h/hardware_store 1172
+/h/hayfield 1173
+/h/heliport 1174
+/h/highway 1175
+/h/home_office 1176
+/h/home_theater 1177
+/h/hospital 1178
+/h/hospital_room 1179
+/h/hot_spring 1180
+/h/hotel/outdoor 1181
+/h/hotel_room 1182
+/h/house 1183
+/h/hunting_lodge/outdoor 1184
+/i/ice_cream_parlor 1185
+/i/ice_floe 1186
+/i/ice_shelf 1187
+/i/ice_skating_rink/indoor 1188
+/i/ice_skating_rink/outdoor 1189
+/i/iceberg 1190
+/i/igloo 1191
+/i/industrial_area 1192
+/i/inn/outdoor 1193
+/i/islet 1194
+/j/jacuzzi/indoor 1195
+/j/jail_cell 1196
+/j/japanese_garden 1197
+/j/jewelry_shop 1198
+/j/junkyard 1199
+/k/kasbah 1200
+/k/kennel/outdoor 1201
+/k/kindergarden_classroom 1202
+/k/kitchen 1203
+/l/lagoon 1204
+/l/lake/natural 1205
+/l/landfill 1206
+/l/landing_deck 1207
+/l/laundromat 1208
+/l/lawn 1209
+/l/lecture_room 1210
+/l/legislative_chamber 1211
+/l/library/indoor 1212
+/l/library/outdoor 1213
+/l/lighthouse 1214
+/l/living_room 1215
+/l/loading_dock 1216
+/l/lobby 1217
+/l/lock_chamber 1218
+/l/locker_room 1219
+/m/mansion 1220
+/m/manufactured_home 1221
+/m/market/indoor 1222
+/m/market/outdoor 1223
+/m/marsh 1224
+/m/martial_arts_gym 1225
+/m/mausoleum 1226
+/m/medina 1227
+/m/mezzanine 1228
+/m/moat/water 1229
+/m/mosque/outdoor 1230
+/m/motel 1231
+/m/mountain 1232
+/m/mountain_path 1233
+/m/mountain_snowy 1234
+/m/movie_theater/indoor 1235
+/m/museum/indoor 1236
+/m/museum/outdoor 1237
+/m/music_studio 1238
+/n/natural_history_museum 1239
+/n/nursery 1240
+/n/nursing_home 1241
+/o/oast_house 1242
+/o/ocean 1243
+/o/office 1244
+/o/office_building 1245
+/o/office_cubicles 1246
+/o/oilrig 1247
+/o/operating_room 1248
+/o/orchard 1249
+/o/orchestra_pit 1250
+/p/pagoda 1251
+/p/palace 1252
+/p/pantry 1253
+/p/park 1254
+/p/parking_garage/indoor 1255
+/p/parking_garage/outdoor 1256
+/p/parking_lot 1257
+/p/pasture 1258
+/p/patio 1259
+/p/pavilion 1260
+/p/pet_shop 1261
+/p/pharmacy 1262
+/p/phone_booth 1263
+/p/physics_laboratory 1264
+/p/picnic_area 1265
+/p/pier 1266
+/p/pizzeria 1267
+/p/playground 1268
+/p/playroom 1269
+/p/plaza 1270
+/p/pond 1271
+/p/porch 1272
+/p/promenade 1273
+/p/pub/indoor 1274
+/r/racecourse 1275
+/r/raceway 1276
+/r/raft 1277
+/r/railroad_track 1278
+/r/rainforest 1279
+/r/reception 1280
+/r/recreation_room 1281
+/r/repair_shop 1282
+/r/residential_neighborhood 1283
+/r/restaurant 1284
+/r/restaurant_kitchen 1285
+/r/restaurant_patio 1286
+/r/rice_paddy 1287
+/r/river 1288
+/r/rock_arch 1289
+/r/roof_garden 1290
+/r/rope_bridge 1291
+/r/ruin 1292
+/r/runway 1293
+/s/sandbox 1294
+/s/sauna 1295
+/s/schoolhouse 1296
+/s/science_museum 1297
+/s/server_room 1298
+/s/shed 1299
+/s/shoe_shop 1300
+/s/shopfront 1301
+/s/shopping_mall/indoor 1302
+/s/shower 1303
+/s/ski_resort 1304
+/s/ski_slope 1305
+/s/sky 1306
+/s/skyscraper 1307
+/s/slum 1308
+/s/snowfield 1309
+/s/soccer_field 1310
+/s/stable 1311
+/s/stadium/baseball 1312
+/s/stadium/football 1313
+/s/stadium/soccer 1314
+/s/stage/indoor 1315
+/s/stage/outdoor 1316
+/s/staircase 1317
+/s/storage_room 1318
+/s/street 1319
+/s/subway_station/platform 1320
+/s/supermarket 1321
+/s/sushi_bar 1322
+/s/swamp 1323
+/s/swimming_hole 1324
+/s/swimming_pool/indoor 1325
+/s/swimming_pool/outdoor 1326
+/s/synagogue/outdoor 1327
+/t/television_room 1328
+/t/television_studio 1329
+/t/temple/asia 1330
+/t/throne_room 1331
+/t/ticket_booth 1332
+/t/topiary_garden 1333
+/t/tower 1334
+/t/toyshop 1335
+/t/train_interior 1336
+/t/train_station/platform 1337
+/t/tree_farm 1338
+/t/tree_house 1339
+/t/trench 1340
+/t/tundra 1341
+/u/underwater/ocean_deep 1342
+/u/utility_room 1343
+/v/valley 1344
+/v/vegetable_garden 1345
+/v/veterinarians_office 1346
+/v/viaduct 1347
+/v/village 1348
+/v/vineyard 1349
+/v/volcano 1350
+/v/volleyball_court/outdoor 1351
+/w/waiting_room 1352
+/w/water_park 1353
+/w/water_tower 1354
+/w/waterfall 1355
+/w/watering_hole 1356
+/w/wave 1357
+/w/wet_bar 1358
+/w/wheat_field 1359
+/w/wind_farm 1360
+/w/windmill 1361
+/y/yard 1362
+/y/youth_hostel 1363
+/z/zen_garden 1364
