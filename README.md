@@ -13,13 +13,13 @@ The category index file is ```categories_places365.txt```. Here we combine the t
 
 ### Performance of the Places365-CNNs
 The performance of the baseline CNNs is listed below. We use the class score averaged over 10-crops of each testing image to classify.
-![Classification accuracy](http://places2.csail.mit.edu/models_places365/table2.jpg =250x)
+<img src="http://places2.csail.mit.edu/models_places365/table2.jpg" alt="Drawing"/>
 
 As comparison, we list the performance of the baseline CNNs trained on [Places205](http://places.csail.mit.edu/downloadCNN.html) as below. There are 160 more scene categories in Places365 than the Places205, the top-5 accuracy doesn't drop much.
-![Classificaiton accuracy on Places205](http://places2.csail.mit.edu/models_places365/table1.jpg)
+<img src="http://places2.csail.mit.edu/models_places365/table1.jpg" alt="Drawing"/>
 
 The performance of the deep features of Places365-CNNs as generic visual features is listed below. The setup for each experiment is the same as the ones in our [NIPS'14 paper](http://places.csail.mit.edu/places_NIPS14.pdf)
-![Generic visual feature](http://places2.csail.mit.edu/models_places365/table3.jpg =300x)
+![Generic visual feature](http://places2.csail.mit.edu/models_places365/table3.jpg)
 
 Some qualitative prediction results using the VGG16-Places365:
 ![Prediction](http://places2.csail.mit.edu/models_places365/example_prediction.jpg)
