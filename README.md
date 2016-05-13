@@ -29,7 +29,7 @@ Link: [Places2 Database](http://places2.csail.mit,edu), [Places1 Database](http:
 
 Please cite the following paper if you use the pre-trained CNN models.
 ```
-Places:10-Million Image Database for Scene Understanding
+Places2:10-Million Image Database for Scene Understanding
 B. Zhou, A. Khosla, A. Lapedriza, A. Torralba and A. Oliva
 Arxiv, 2016 (pdf coming soon)
 ```
