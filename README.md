@@ -25,7 +25,7 @@ Some qualitative prediction results using the VGG16-Places365:
 ![Prediction](http://places2.csail.mit.edu/models_places365/example_prediction.jpg)
 
 ### Reference
-Link: [Places2 Database](http://places2.csail.mit,edu), [Places1 Database](http://places.csail.mit.edu)
+Link: [Places2 Database](http://places2.csail.mit.edu), [Places1 Database](http://places.csail.mit.edu)
 
 Please cite the following paper if you use the pre-trained CNN models.
 ```
