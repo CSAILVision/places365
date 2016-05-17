@@ -29,7 +29,7 @@ Link: [Places2 Database](http://places2.csail.mit.edu), [Places1 Database](http:
 
 Please cite the following paper if you use the data or pre-trained CNN models.
 ```
-Places: Am Image Database for Deep Scene Understanding.
+Places: An Image Database for Deep Scene Understanding.
 B. Zhou, A. Khosla, A. Lapedriza, A. Torralba and A. Oliva
 Arxiv, 2016 (pdf coming soon)
 ```
