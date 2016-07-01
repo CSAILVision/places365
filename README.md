@@ -8,19 +8,19 @@ The data Places365-Standard and Places365-Challenge are released at [Places2 web
 * GoogLeNet-places365: ```deploy_googlenet_places365.prototxt``` weights:[http://places2.csail.mit.edu/models_places365/googlenet_places365.caffemodel]
 * VGG16-places365: ```deploy_vgg16_places365.prototxt``` weights:[http://places2.csail.mit.edu/models_places365/vgg16_places365.caffemodel]
 * VGG16-hybrid1365: ```deploy_vgg16_hybrid1365.prototxt``` weights:[http://places2.csail.mit.edu/models_places365/vgg16_hybrid1365.caffemodel]
-* ResNet152-places365: ```deploy_resnet152_places365.prototxt``` weights:[http://places2.csail.mit.edu/models_places365/resnet152_places365.caffemodel] (numeric scores on datasets will be updated soon)
-* ResNet152-hybrid1365: ```deploy_resnet152_hybrid1365.prototxt``` weights:[http://places2.csail.mit.edu/models_places365/resnet152_hybrid1365.caffemodel] (numeric scores on datasets will be updated soon)
+* ResNet152-places365: ```deploy_resnet152_places365.prototxt``` weights:[http://places2.csail.mit.edu/models_places365/resnet152_places365.caffemodel] 
+* ResNet152-hybrid1365: ```deploy_resnet152_hybrid1365.prototxt``` weights:[http://places2.csail.mit.edu/models_places365/resnet152_hybrid1365.caffemodel] 
 
 The category index file is ```categories_places365.txt```. Here we combine the training set of ImageNet 1.2 million data with Places365-Standard to train VGG16-hybrid1365 model, its category index file is ```categories_hybrid1365.txt```. To download all the files, you could access [here](http://places2.csail.mit.edu/models_places365/)
 
 ### Performance of the Places365-CNNs
-The performance of the baseline CNNs is listed below. We use the class score averaged over 10-crops of each testing image to classify.
+The performance of the baseline CNNs is listed below. ResidualNet's performance will be updated soon. We use the class score averaged over 10-crops of each testing image to classify.
 <img src="http://places2.csail.mit.edu/models_places365/table2.jpg" alt="Drawing"/ style="height: 200px;"/>
 
 As comparison, we list the performance of the baseline CNNs trained on [Places205](http://places.csail.mit.edu/downloadCNN.html) as below. There are 160 more scene categories in Places365 than the Places205, the top-5 accuracy doesn't drop much.
 <img src="http://places2.csail.mit.edu/models_places365/table1.jpg" alt="Drawing"/ style="height: 250px;"/>
 
-The performance of the deep features of Places365-CNNs as generic visual features is listed below. The setup for each experiment is the same as the ones in our [NIPS'14 paper](http://places.csail.mit.edu/places_NIPS14.pdf)
+The performance of the deep features of Places365-CNNs as generic visual features is listed below ResidualNets' performances will be included soon. The setup for each experiment is the same as the ones in our [NIPS'14 paper](http://places.csail.mit.edu/places_NIPS14.pdf)
 ![Generic visual feature](http://places2.csail.mit.edu/models_places365/table3.jpg)
 
 Some qualitative prediction results using the VGG16-Places365:
