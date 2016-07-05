@@ -14,7 +14,7 @@ The data Places365-Standard and Places365-Challenge are released at [Places2 web
 The category index file is ```categories_places365.txt```. Here we combine the training set of ImageNet 1.2 million data with Places365-Standard to train VGG16-hybrid1365 model, its category index file is ```categories_hybrid1365.txt```. To download all the files, you could access [here](http://places2.csail.mit.edu/models_places365/)
 
 ### Performance of the Places365-CNNs
-The performance of the baseline CNNs is listed below. ResidualNet's performance will be updated soon. We use the class score averaged over 10-crops of each testing image to classify.
+The performance of the baseline CNNs is listed below. ResidualNet's performance will be updated soon. We use the class score averaged over 10-crops of each testing image to classify. Here we also fine-tune the resNet152 on Places365-standard and list its performance below.
 <img src="http://places2.csail.mit.edu/models_places365/table2.jpg" alt="Drawing"/ style="height: 200px;"/>
 
 As comparison, we list the performance of the baseline CNNs trained on [Places205](http://places.csail.mit.edu/downloadCNN.html) as below. There are 160 more scene categories in Places365 than the Places205, the top-5 accuracy doesn't drop much.
