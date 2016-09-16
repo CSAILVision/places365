@@ -32,11 +32,17 @@ Link: [Places2 Database](http://places2.csail.mit.edu), [Places1 Database](http:
 Please cite the following paper if you use the data or pre-trained CNN models.
 ```
 Learning Deep Features for Scene Recognition using Places Database.
-B. Zhou, A. Lapedriza, J. Xiao, A. Torralba and A. Oliva
+Bolei Zhou,  Agata Lapedriza, Jianxiong Xiao, Antonio Torralba, and Aude Oliva
 Advances in Neural Information Processing Systems 27 (NIPS), 2014.
 ```
 ```
 Places: An Image Database for Deep Scene Understanding.
-B. Zhou, A. Khosla, A. Lapedriza, A. Torralba and A. Oliva
+Bolei Zhou, Aditya Khosla, Agata Lapedriza, Antonio Torralba, and Aude Oliva.
 Arxiv, 2016 (pdf coming soon)
 ```
+
+### Acknowledgements and License
+
+Places dataset development has been partly supported by the National Science Foundation CISE directorate (#1016862), the McGovern Institute Neurotechnology Program (MINT), ONR MURI N000141010933, MIT Big Data Initiative at CSAIL, and Google, Xerox, Amazon and NVIDIA. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation and other funding agencies. 
+
+The pretrained places-CNN models can be used under the Creative Common License (Attribution CC BY). Please give appropriate credit, such as providing a link to our paper or to the [Places Project Page](http://places2.csail.mit.edu). The copyright of all the images belongs to the image owners.
