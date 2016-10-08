@@ -1,0 +1,16 @@
+test_iter: 1000
+test_interval: 5000
+test_initialization: false
+base_lr: 0.01
+display: 20
+max_iter: 700000
+lr_policy: "step"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+stepsize: 300000
+snapshot: 20000
+snapshot_prefix: "models/vgg16_train_maxTrain5000"
+solver_mode: GPU
+net: "train_val_vgg16.prototxt"
+solver_type: SGD
