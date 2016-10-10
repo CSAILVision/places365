@@ -33,12 +33,12 @@ Please cite the following paper if you use the data or pre-trained CNN models.
 ```
 Learning Deep Features for Scene Recognition using Places Database.
 Bolei Zhou,  Agata Lapedriza, Jianxiong Xiao, Antonio Torralba, and Aude Oliva
-Advances in Neural Information Processing Systems 27 (NIPS), 2014.
+Advances in Neural Information Processing Systems 27 (NIPS), 2014. [pdf](http://places.csail.mit.edu/places_NIPS14.pdf)
 ```
 ```
 Places: An Image Database for Deep Scene Understanding.
 Bolei Zhou, Aditya Khosla, Agata Lapedriza, Antonio Torralba, and Aude Oliva.
-Arxiv, 2016 (pdf coming soon)
+arXiv:1610.02055, 2016 [pdf](https://arxiv.org/pdf/1610.02055.pdf)
 ```
 
 ### Acknowledgements and License
