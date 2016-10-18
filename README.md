@@ -11,7 +11,7 @@ The data Places365-Standard and Places365-Challenge are released at [Places2 web
 * ResNet152-places365: ```deploy_resnet152_places365.prototxt``` weights:[http://places2.csail.mit.edu/models_places365/resnet152_places365.caffemodel] 
 * ResNet152-hybrid1365: ```deploy_resnet152_hybrid1365.prototxt``` weights:[http://places2.csail.mit.edu/models_places365/resnet152_hybrid1365.caffemodel] 
 
-The category index file is ```categories_places365.txt```. Here we combine the training set of ImageNet 1.2 million data with Places365-Standard to train VGG16-hybrid1365 model, its category index file is ```categories_hybrid1365.txt```. To download all the files, you could access [here](http://places2.csail.mit.edu/models_places365/)
+The category index file is ```categories_places365.txt```. Here we combine the training set of ImageNet 1.2 million data with Places365-Standard to train VGG16-hybrid1365 model, its category index file is ```categories_hybrid1365.txt```. The indoor and outdoor labels for the categories is in the file ```IO_places365.csv```.
 
 ### Performance of the Places365-CNNs
 The performance of the baseline CNNs is listed below. ResidualNet's performance will be updated soon. We use the class score averaged over 10-crops of each testing image to classify. Here we also fine-tune the resNet152 on Places365-standard, for 10 crop average it has 85.08% on the validation set and 85.07% on the test set for top-5 accuracy.
