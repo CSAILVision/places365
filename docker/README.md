@@ -18,6 +18,6 @@ docker build -t places365_container .
 then, from command line, do
 
 ```
-docker run places365 python run_scene.py images/mountains.jpg
+docker run places365_container python run_scene.py images/mountains.jpg
 
 ```
