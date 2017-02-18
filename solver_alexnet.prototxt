@@ -1,4 +1,4 @@
-net: "train_val_caffeNet.prototxt"
+net: "train_val_alexnet.prototxt"
 test_iter: 1000
 test_interval: 2000
 base_lr: 0.01
@@ -10,5 +10,5 @@ max_iter: 420000
 momentum: 0.9
 weight_decay: 0.0005
 snapshot: 50000
-snapshot_prefix: "models/caffeNet_random"
+snapshot_prefix: "models/alexnet_places365"
 solver_mode: GPU
