@@ -1,0 +1,14 @@
+net: "train_val_caffeNet.prototxt"
+test_iter: 1000
+test_interval: 2000
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+stepsize: 140000
+display: 20
+max_iter: 420000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 50000
+snapshot_prefix: "models/caffeNet_random"
+solver_mode: GPU
