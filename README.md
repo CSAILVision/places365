@@ -29,16 +29,15 @@ Some qualitative prediction results using the VGG16-Places365:
 ### Reference
 Link: [Places2 Database](http://places2.csail.mit.edu), [Places1 Database](http://places.csail.mit.edu)
 
-Please cite the following paper if you use the data or pre-trained CNN models.
+Please cite the following paper(https://arxiv.org/pdf/1610.02055.pdf) if you use the data or pre-trained CNN models.
+
 ```
-Learning Deep Features for Scene Recognition using Places Database.
-Bolei Zhou,  Agata Lapedriza, Jianxiong Xiao, Antonio Torralba, and Aude Oliva
-Advances in Neural Information Processing Systems 27 (NIPS), 2014. [pdf](http://places.csail.mit.edu/places_NIPS14.pdf)
-```
-```
-Places: An Image Database for Deep Scene Understanding.
-Bolei Zhou, Aditya Khosla, Agata Lapedriza, Antonio Torralba, and Aude Oliva.
-arXiv:1610.02055, 2016 [pdf](https://arxiv.org/pdf/1610.02055.pdf)
+@article{zhou2016places,
+  title={Places: An Image Database for Deep Scene Understanding},
+  author={Zhou, Bolei and Khosla, Aditya and Lapedriza, Agata and Torralba, Antonio and Oliva, Aude},
+  journal={arXiv preprint arXiv:1610.02055},
+  year={2016}
+}
 ```
 
 ### Acknowledgements and License
