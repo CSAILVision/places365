@@ -8,9 +8,9 @@ The data Places365-Standard and Places365-Challenge are released at [Places2 web
 * GoogLeNet-places365: [deploy](deploy_googlenet_places365.prototxt) [weights](http://places2.csail.mit.edu/models_places365/googlenet_places365.caffemodel)
 * VGG16-places365: [deploy](deploy_vgg16_places365.prototxt) [weights](http://places2.csail.mit.edu/models_places365/vgg16_places365.caffemodel)
 * VGG16-hybrid1365: [deploy](deploy_vgg16_hybrid1365.prototxt) [weights](http://places2.csail.mit.edu/models_places365/vgg16_hybrid1365.caffemodel)
-* ResNet152-places365 (fine-tuned for several weeks from ResNet152-ImageNet): [deploy](deploy_resnet152_places365.prototxt) [weights](http://places2.csail.mit.edu/models_places365/resnet152_places365.caffemodel) 
-* ResNet152-hybrid1365: (deploy)[deploy_resnet152_hybrid1365.prototxt)] [weights](http://places2.csail.mit.edu/models_places365/resnet152_hybrid1365.caffemodel)
-* ResNet152-places365 (trained from scratch using Torch): [torch model](http://places2.csail.mit.edu/models_places365/resnet152_places365.t7) converted caffemodel:[prototxt](http://netdissect.csail.mit.edu/dissect/zoo/resnet-152-torch-places365.prototxt) [caffemodel](http://netdissect.csail.mit.edu/dissect/zoo/resnet-152-torch-places365.caffemodel).
+* ResNet152-places365 fine-tuned from [ResNet152-ImageNet](https://github.com/KaimingHe/deep-residual-networks/blob/master/prototxt/ResNet-152-deploy.prototxt): [deploy](deploy_resnet152_places365.prototxt) [weights](http://places2.csail.mit.edu/models_places365/resnet152_places365.caffemodel) 
+* ResNet152-hybrid1365: [deploy](deploy_resnet152_hybrid1365.prototxt) [weights](http://places2.csail.mit.edu/models_places365/resnet152_hybrid1365.caffemodel)
+* ResNet152-places365 trained from scratch using Torch: [torch model](http://places2.csail.mit.edu/models_places365/resnet152_places365.t7) converted caffemodel:[deploy](http://netdissect.csail.mit.edu/dissect/zoo/resnet-152-torch-places365.prototxt) [weights](http://netdissect.csail.mit.edu/dissect/zoo/resnet-152-torch-places365.caffemodel).
 
 The category index file is [the file](categories_places365.txt). Here we combine the training set of ImageNet 1.2 million data with Places365-Standard to train VGG16-hybrid1365 model, its category index file is [the file](categories_hybrid1365.txt). The indoor and outdoor labels for the categories is in [the file](IO_places365.csv).
 
