@@ -12,6 +12,11 @@ The data Places365-Standard and Places365-Challenge are released at [Places2 web
 * ResNet152-hybrid1365: [deploy](deploy_resnet152_hybrid1365.prototxt) [weights](http://places2.csail.mit.edu/models_places365/resnet152_hybrid1365.caffemodel)
 * ResNet152-places365 trained from scratch using Torch: [torch model](http://places2.csail.mit.edu/models_places365/resnet152_places365.t7) converted caffemodel:[deploy](http://netdissect.csail.mit.edu/dissect/zoo/resnet-152-torch-places365.prototxt) [weights](http://netdissect.csail.mit.edu/dissect/zoo/resnet-152-torch-places365.caffemodel). It is the original ResNet with 152 layers. On the validation set, the top1 error is 45.26% and the top5 error is 15.02%.
 * ResNet50-places365 trained from scratch using Torch: [torch model](http://places2.csail.mit.edu/models_places365/resnet50_places365.t7). It is Preact ResNet with 50 layers. The top1 error is 44.82% and the top5 error is 14.71%.
+* To use the alexnet and vgg16 caffemodels in Torch, use the torch library [loadcaffe](https://github.com/szagoruyko/loadcaffe), where you could simply load the caffe model use the following commands. But note that the input image scale should be from 0-255, which is different to the 0-1 scale in the previous resnet Torch models trained from scratch in [fb.resnet.torch](https://github.com/facebook/fb.resnet.torch).
+```
+	require 'loadcaffe'
+	model = loadcaffe.load('deploy_alexnet_places365.prototxt', 'alexnet_places365.caffemodel', 'cudnn')
+```
 
 The category index file is [the file](categories_places365.txt). Here we combine the training set of ImageNet 1.2 million data with Places365-Standard to train VGG16-hybrid1365 model, its category index file is [the file](categories_hybrid1365.txt). The indoor and outdoor labels for the categories is in [the file](IO_places365.csv).
 
