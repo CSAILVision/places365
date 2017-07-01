@@ -36,15 +36,17 @@ Some qualitative prediction results using the VGG16-Places365:
 ### Reference
 Link: [Places2 Database](http://places2.csail.mit.edu), [Places1 Database](http://places.csail.mit.edu)
 
-Please cite the following paper(https://arxiv.org/pdf/1610.02055.pdf) if you use the data or pre-trained CNN models.
+Please cite the following [IEEE Transaction on Pattern Analysis and Machine Intelligence paper](http://places2.csail.mit.edu/PAMI_places.pdf) if you use the data or pre-trained CNN models.
 
 ```
-@article{zhou2016places,
-  title={Places: An Image Database for Deep Scene Understanding},
-  author={Zhou, Bolei and Khosla, Aditya and Lapedriza, Agata and Torralba, Antonio and Oliva, Aude},
-  journal={arXiv preprint arXiv:1610.02055},
-  year={2016}
-}
+ @article{zhou2017places,
+   title={Places: A 10 million Image Database for Scene Recognition},
+   author={Zhou, Bolei and Lapedriza, Agata and Khosla, Aditya and Oliva, Aude and Torralba, Antonio},
+   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+   year={2017},
+   publisher={IEEE}
+ }
+
 ```
 
 ### Acknowledgements and License
