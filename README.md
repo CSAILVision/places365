@@ -4,6 +4,7 @@ We release various convolutional neural networks (CNNs) trained on Places365 to 
 The data Places365-Standard and Places365-Challenge are released at [Places2 website](http://places2.csail.mit.edu).
 
 ### Pre-trained CNN models on Places365-Standard:
+
 * AlexNet-places365: [deploy](deploy_alexnet_places365.prototxt) [weights](http://places2.csail.mit.edu/models_places365/alexnet_places365.caffemodel)
 * GoogLeNet-places365: [deploy](deploy_googlenet_places365.prototxt) [weights](http://places2.csail.mit.edu/models_places365/googlenet_places365.caffemodel)
 * VGG16-places365: [deploy](deploy_vgg16_places365.prototxt) [weights](http://places2.csail.mit.edu/models_places365/vgg16_places365.caffemodel)
@@ -17,7 +18,10 @@ The data Places365-Standard and Places365-Challenge are released at [Places2 web
 	require 'loadcaffe'
 	model = loadcaffe.load('deploy_alexnet_places365.prototxt', 'alexnet_places365.caffemodel', 'cudnn')
 ```
-
+* PyTorch Places365 models: [AlexNet](http://places2.csail.mit.edu/models_places365/alexnet_places365.pth.tar), [ResNet18](http://places2.csail.mit.edu/models_places365/resnet18_places365.pth.tar), [ResNet50](http://places2.csail.mit.edu/models_places365/resnet50_places365.pth.tar). Run [sample code for Pytorch PlacesCNN](test_placesCNN_pytorch.py):
+```
+    python test_placesCNN_pytorch.py
+```
 The category index file is [the file](categories_places365.txt). Here we combine the training set of ImageNet 1.2 million data with Places365-Standard to train VGG16-hybrid1365 model, its category index file is [the file](categories_hybrid1365.txt). The indoor and outdoor labels for the categories is in [the file](IO_places365.csv).
 
 ### Performance of the Places365-CNNs
