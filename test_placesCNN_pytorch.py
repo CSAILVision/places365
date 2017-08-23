@@ -1,10 +1,10 @@
 import torch
 from torch.autograd import Variable as V
 import torchvision.models as models
-import skimage.io
 from torchvision import transforms as trn
 from torch.nn import functional as F
 import os
+from PIL import Image
 
 # th architecture to use
 arch = 'resnet18'
@@ -18,14 +18,18 @@ if not os.access(model_weight, os.W_OK):
     weight_url = 'http://places2.csail.mit.edu/models_places365/%s_places365.pth.tar' % arch
     os.system('wget ' + model_weight)
 
-checkpoint = torch.load(model_weight)
+useGPU = 0
+if useGPU == 1:
+    checkpoint = torch.load(model_weight)
+else:
+    checkpoint = torch.load(model_weight, map_location=lambda storage, loc: storage) # model trained in GPU could be deployed in CPU machine like this!
+
 state_dict = {str.replace(k,'module.',''): v for k,v in checkpoint['state_dict'].iteritems()} # the data parallel layer will add 'module' before each layer name
 model.load_state_dict(state_dict)
 model.eval()
 
 # load the image transformer
 centre_crop = trn.Compose([
-        trn.ToPILImage(),
         trn.Scale(256),
         trn.CenterCrop(224),
         trn.ToTensor(),
@@ -48,7 +52,7 @@ img_name = '12.jpg'
 if not os.access(img_name, os.W_OK):
     img_url = 'http://places.csail.mit.edu/demo/12.jpg'
     os.system('wget ' + img_url)
-img = skimage.io.imread(img_name)
+img = Image.open(img_name)
 input_img = V(centre_crop(img).unsqueeze(0), volatile=True)
 
 # forward pass
