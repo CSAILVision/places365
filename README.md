@@ -18,7 +18,7 @@ The data Places365-Standard and Places365-Challenge are released at [Places2 web
 	require 'loadcaffe'
 	model = loadcaffe.load('deploy_alexnet_places365.prototxt', 'alexnet_places365.caffemodel', 'cudnn')
 ```
-* PyTorch Places365 models: [AlexNet](http://places2.csail.mit.edu/models_places365/alexnet_places365.pth.tar), [ResNet18](http://places2.csail.mit.edu/models_places365/resnet18_places365.pth.tar), [ResNet50](http://places2.csail.mit.edu/models_places365/resnet50_places365.pth.tar). Run [sample code for Pytorch PlacesCNN](test_placesCNN_pytorch.py):
+* PyTorch Places365 models: [AlexNet](http://places2.csail.mit.edu/models_places365/whole_alexnet_places365.pth.tar), [ResNet18](http://places2.csail.mit.edu/models_places365/whole_resnet18_places365.pth.tar), [ResNet50](http://places2.csail.mit.edu/models_places365/whole_resnet50_places365.pth.tar). Run [sample code for Pytorch PlacesCNN](test_placesCNN_pytorch.py):
 ```
     python test_placesCNN_pytorch.py
 ```

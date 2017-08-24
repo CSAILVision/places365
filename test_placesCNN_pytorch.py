@@ -9,23 +9,18 @@ from PIL import Image
 # th architecture to use
 arch = 'resnet18'
 
-# create the network architecture
-model = models.__dict__[arch](num_classes=365)
-
 # load the pre-trained weights
-model_weight = '%s_places365.pth.tar' % arch
+model_weight = 'whole_%s_places365.pth.tar' % arch
 if not os.access(model_weight, os.W_OK):
-    weight_url = 'http://places2.csail.mit.edu/models_places365/%s_places365.pth.tar' % arch
+    weight_url = 'http://places2.csail.mit.edu/models_places365/whole_%s_places365.pth.tar' % arch
     os.system('wget ' + model_weight)
 
 useGPU = 0
 if useGPU == 1:
-    checkpoint = torch.load(model_weight)
+    model = torch.load(model_weight)
 else:
-    checkpoint = torch.load(model_weight, map_location=lambda storage, loc: storage) # model trained in GPU could be deployed in CPU machine like this!
+    model = torch.load(model_weight, map_location=lambda storage, loc: storage) # model trained in GPU could be deployed in CPU machine like this!
 
-state_dict = {str.replace(k,'module.',''): v for k,v in checkpoint['state_dict'].iteritems()} # the data parallel layer will add 'module' before each layer name
-model.load_state_dict(state_dict)
 model.eval()
 
 # load the image transformer
@@ -50,7 +45,7 @@ classes = tuple(classes)
 # load the test image
 img_name = '12.jpg'
 if not os.access(img_name, os.W_OK):
-    img_url = 'http://places.csail.mit.edu/demo/12.jpg'
+    img_url = 'http://places.csail.mit.edu/demo/' + img_name
     os.system('wget ' + img_url)
 img = Image.open(img_name)
 input_img = V(centre_crop(img).unsqueeze(0), volatile=True)
