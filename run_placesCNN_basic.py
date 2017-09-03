@@ -13,7 +13,7 @@ arch = 'resnet18'
 model_weight = 'whole_%s_places365.pth.tar' % arch
 if not os.access(model_weight, os.W_OK):
     weight_url = 'http://places2.csail.mit.edu/models_places365/whole_%s_places365.pth.tar' % arch
-    os.system('wget ' + model_weight)
+    os.system('wget ' + weight_url)
 
 useGPU = 0
 if useGPU == 1:
