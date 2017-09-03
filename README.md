@@ -51,13 +51,13 @@ The category index file is [the file](categories_places365.txt). Here we combine
 
 ### Performance of the Places365-CNNs
 The performance of the baseline CNNs is listed below. ResidualNet's performance will be updated soon. We use the class score averaged over 10-crops of each testing image to classify. Here we also fine-tune the resNet152 on Places365-standard, for 10 crop average it has 85.08% on the validation set and 85.07% on the test set for top-5 accuracy.
-![performance](http://places2.csail.mit.edu/models_places365/table2.jpg)
+<img src="http://places2.csail.mit.edu/models_places365/table2.jpg" height="150">
 
 As comparison, we list the performance of the baseline CNNs trained on [Places205](http://places.csail.mit.edu/downloadCNN.html) as below. There are 160 more scene categories in Places365 than the Places205, the top-5 accuracy doesn't drop much.
-![performance2](http://places2.csail.mit.edu/models_places365/table1.jpg)
+<img src="http://places2.csail.mit.edu/models_places365/table1.jpg" height="150">
 
 The performance of the deep features of Places365-CNNs as generic visual features is listed below ResidualNets' performances will be included soon. The setup for each experiment is the same as the ones in our [NIPS'14 paper](http://places.csail.mit.edu/places_NIPS14.pdf)
-![Generic visual feature](http://places2.csail.mit.edu/models_places365/table3.jpg)
+<img src="http://places2.csail.mit.edu/models_places365/table3.jpg" height="180">
 
 Some qualitative prediction results using the VGG16-Places365:
 ![Prediction](http://places2.csail.mit.edu/models_places365/example_prediction.jpg)
