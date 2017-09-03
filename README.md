@@ -29,7 +29,7 @@ The data Places365-Standard and Places365-Challenge are released at [Places2 web
     0.017 -> diner/outdoor
     0.016 -> courtyard
 ```
-or Run [unified code](run_placesCNN_unified.py) to predict scene categories, indoor/outdoor type, [scene attributes](https://cs.brown.edu/~gen/sunattributes.html), and the [Class Activation Map](http://cnnlocalization.csail.mit.edu/) together from PlacesCNN:
+or run [unified code](run_placesCNN_unified.py) to predict scene categories, indoor/outdoor type, [scene attributes](https://cs.brown.edu/~gen/sunattributes.html), and the [class activation map](http://cnnlocalization.csail.mit.edu/) together from PlacesCNN:
 ```
     python run_placesCNN_unified.py
 
@@ -44,8 +44,8 @@ or Run [unified code](run_placesCNN_unified.py) to predict scene categories, ind
     --SCENE ATTRIBUTES:
     no horizon, enclosed area, man-made, socializing, indoor lighting, cloth, congregating, eating, working
     Class activation map is output as cam.jpg
-    <img src="./cam_example.jpg" height="200">
 ```
+<img src="./cam_example.jpg" height="200">
 
 The category index file is [the file](categories_places365.txt). Here we combine the training set of ImageNet 1.2 million data with Places365-Standard to train VGG16-hybrid1365 model, its category index file is [the file](categories_hybrid1365.txt). The indoor and outdoor labels for the categories is in [the file](IO_places365.txt).
 
