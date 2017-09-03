@@ -47,8 +47,8 @@ def load_labels():
         lines = f.readlines()
         labels_attribute = [item.rstrip() for item in lines]
     file_name_W = 'W_sceneattribute_wideresnet18.npy'
-    if not os.access(file_name_attribute, os.W_OK):
-        synset_url = 'https://raw.githubusercontent.com/csailvision/places365/master/W_sceneattribute_wideresnet18.npy'
+    if not os.access(file_name_W, os.W_OK):
+        synset_url = 'http://places2.csail.mit.edu/models_places365/W_sceneattribute_wideresnet18.npy'
         os.system('wget ' + synset_url)
     W_attribute = np.load(file_name_W)
 

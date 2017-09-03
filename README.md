@@ -33,7 +33,7 @@ or run [unified code](run_placesCNN_unified.py) to predict scene categories, ind
 ```
     python run_placesCNN_unified.py
 
-    Result on http://places.csail.mit.edu/demo/6.jpg
+    RESULT ON http://places.csail.mit.edu/demo/6.jpg
     --TYPE: indoor
     --SCENE CATEGORIES:
     0.690 -> food_court
