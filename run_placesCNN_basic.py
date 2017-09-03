@@ -44,9 +44,8 @@ classes = tuple(classes)
 
 # load the test image
 img_name = '12.jpg'
-if not os.access(img_name, os.W_OK):
-    img_url = 'http://places.csail.mit.edu/demo/' + img_name
-    os.system('wget ' + img_url)
+img_url = 'http://places.csail.mit.edu/demo/' + img_name
+os.system('wget ' + img_url)
 img = Image.open(img_name)
 input_img = V(centre_crop(img).unsqueeze(0), volatile=True)
 
@@ -55,6 +54,7 @@ logit = model.forward(input_img)
 h_x = F.softmax(logit).data.squeeze()
 probs, idx = h_x.sort(0, True)
 
+print 'RESULT ON ' + img_url
 # output the prediction
 for i in range(0, 5):
     print('{:.3f} -> {}'.format(probs[i], classes[idx[i]]))

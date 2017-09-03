@@ -18,9 +18,16 @@ The data Places365-Standard and Places365-Challenge are released at [Places2 web
 	require 'loadcaffe'
 	model = loadcaffe.load('deploy_alexnet_places365.prototxt', 'alexnet_places365.caffemodel', 'cudnn')
 ```
-* PyTorch Places365 models: [AlexNet](http://places2.csail.mit.edu/models_places365/whole_alexnet_places365.pth.tar), [ResNet18](http://places2.csail.mit.edu/models_places365/whole_resnet18_places365.pth.tar), [ResNet50](http://places2.csail.mit.edu/models_places365/whole_resnet50_places365.pth.tar), [DenseNet161](http://places2.csail.mit.edu/models_places365/whole_densenet161.pth.tar). Run [basic code](run_placesCNN_basic.py) to get the scene prediction from PlacesCNN:
+* PyTorch Places365 models: [AlexNet](http://places2.csail.mit.edu/models_places365/whole_alexnet_places365.pth.tar), [ResNet18](http://places2.csail.mit.edu/models_places365/whole_resnet18_places365.pth.tar), [ResNet50](http://places2.csail.mit.edu/models_places365/whole_resnet50_places365.pth.tar), [DenseNet161](http://places2.csail.mit.edu/models_places365/whole_densenet161_places365.pth.tar). Run [basic code](run_placesCNN_basic.py) to get the scene prediction from PlacesCNN:
 ```
     python run_placesCNN_basic.py
+
+    RESULT ON http://places.csail.mit.edu/demo/12.jpg
+    0.519 -> patio
+    0.394 -> restaurant_patio
+    0.018 -> beer_garden
+    0.017 -> diner/outdoor
+    0.016 -> courtyard
 ```
 or Run [unified code](run_placesCNN_unified.py) to get the scene prediction, indoor/outdoor prediction, scene attribute prediction, and the [Class Activation Map](http://cnnlocalization.csail.mit.edu/) together from PlacesCNN:
 ```
@@ -38,8 +45,7 @@ or Run [unified code](run_placesCNN_unified.py) to get the scene prediction, ind
     no horizon, enclosed area, man-made, socializing, indoor lighting, cloth, congregating, eating, working
     Class activation map is output as cam.jpg
 ```
-![CAM](cam_example.jpg)
-
+<img src="./cam_example.jpg" height="200">
 
 The category index file is [the file](categories_places365.txt). Here we combine the training set of ImageNet 1.2 million data with Places365-Standard to train VGG16-hybrid1365 model, its category index file is [the file](categories_hybrid1365.txt). The indoor and outdoor labels for the categories is in [the file](IO_places365.txt).
 
