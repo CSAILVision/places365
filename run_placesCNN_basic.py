@@ -1,3 +1,7 @@
+# PlacesCNN for scene classification
+#
+# by Bolei Zhou
+
 import torch
 from torch.autograd import Variable as V
 import torchvision.models as models
