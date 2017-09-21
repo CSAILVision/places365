@@ -47,6 +47,11 @@ or run [unified code](run_placesCNN_unified.py) to predict scene categories, ind
 ```
 <img src="./cam_example.jpg" height="200">
 
+* Train PlacesCNN using Pytorch. The training script is at [here](train_placesCNN.py). Download the Places365 standard easyformat split at [here](http://data.csail.mit.edu/places/places365/places365standard_easyformat.tar). Untar it to some folder. Then run the following:
+```
+    python train_placesCNN.py -a resnet18 /xxx/yyy/places365standard_easyformat
+```
+
 The category index file is [the file](categories_places365.txt). Here we combine the training set of ImageNet 1.2 million data with Places365-Standard to train VGG16-hybrid1365 model, its category index file is [the file](categories_hybrid1365.txt). The indoor and outdoor labels for the categories is in [the file](IO_places365.txt).
 
 ### Performance of the Places365-CNNs
