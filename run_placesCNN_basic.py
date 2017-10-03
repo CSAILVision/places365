@@ -14,16 +14,23 @@ from PIL import Image
 arch = 'resnet18'
 
 # load the pre-trained weights
-model_weight = 'whole_%s_places365.pth.tar' % arch
-if not os.access(model_weight, os.W_OK):
+model_file = 'whole_%s_places365.pth.tar' % arch
+if not os.access(model_file, os.W_OK):
     weight_url = 'http://places2.csail.mit.edu/models_places365/whole_%s_places365.pth.tar' % arch
     os.system('wget ' + weight_url)
 
 useGPU = 0
 if useGPU == 1:
-    model = torch.load(model_weight)
+    model = torch.load(model_file)
 else:
-    model = torch.load(model_weight, map_location=lambda storage, loc: storage) # model trained in GPU could be deployed in CPU machine like this!
+    model = torch.load(model_file, map_location=lambda storage, loc: storage) # model trained in GPU could be deployed in CPU machine like this!
+
+## if you encounter the UnicodeDecodeError when use python3 to load the model, add the following line will fix it. Thanks to @soravux
+# from functools import partial
+# import pickle
+# pickle.load = partial(pickle.load, encoding="latin1")
+# pickle.Unpickler = partial(pickle.Unpickler, encoding="latin1")
+# model = torch.load(model_file, map_location=lambda storage, loc: storage, pickle_module=pickle)
 
 model.eval()
 

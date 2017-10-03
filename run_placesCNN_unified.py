@@ -89,8 +89,19 @@ def load_model():
     if not os.access(model_file, os.W_OK):
         os.system('wget http://places2.csail.mit.edu/models_places365/' + model_file)
         os.system('wget https://raw.githubusercontent.com/csailvision/places365/master/wideresnet.py')
+    useGPU = 0
+    if useGPU == 1:
+        model = torch.load(model_file)
+    else:
+        model = torch.load(model_file, map_location=lambda storage, loc: storage) # allow cpu
 
-    model = torch.load(model_file, map_location=lambda storage, loc: storage) # allow cpu
+    ## if you encounter the UnicodeDecodeError when use python3 to load the model, add the following line will fix it. Thanks to @soravux
+    # from functools import partial
+    # import pickle
+    # pickle.load = partial(pickle.load, encoding="latin1")
+    # pickle.Unpickler = partial(pickle.Unpickler, encoding="latin1")
+    # model = torch.load(model_file, map_location=lambda storage, loc: storage, pickle_module=pickle)
+
     model.eval()
     # hook the feature extractor
     features_names = ['layer4','avgpool'] # this is the last conv layer of the resnet
