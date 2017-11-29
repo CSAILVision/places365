@@ -19,7 +19,7 @@ The data Places365-Standard and Places365-Challenge are released at [Places2 web
 	model = loadcaffe.load('deploy_alexnet_places365.prototxt', 'alexnet_places365.caffemodel', 'cudnn')
 ```
 * PyTorch Places365 models: [AlexNet](http://places2.csail.mit.edu/models_places365/whole_alexnet_places365.pth.tar), [ResNet18](http://places2.csail.mit.edu/models_places365/whole_resnet18_places365.pth.tar), [ResNet50](http://places2.csail.mit.edu/models_places365/whole_resnet50_places365.pth.tar), [DenseNet161](http://places2.csail.mit.edu/models_places365/whole_densenet161_places365.pth.tar). The models are trained in Python2.7+PyTorch 0.2, when the models are being loaded in
-  python3, you might encounter UnicodeDecodeError, see [this issue](https://github.com/CSAILVision/places365/issues/25). Run [basic code](run_placesCNN_basic.py) to get the scene prediction from PlacesCNN:
+  python3, you might encounter UnicodeDecodeError, see [this issue](https://github.com/CSAILVision/places365/issues/25). **You don't need to untar the pytorch model files, refer to the following placesCNN demo code to see how to load the model**. Run [basic code](run_placesCNN_basic.py) to get the scene prediction from PlacesCNN:
 ```
     python run_placesCNN_basic.py
 
