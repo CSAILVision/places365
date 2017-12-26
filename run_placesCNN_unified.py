@@ -75,7 +75,7 @@ def returnCAM(feature_conv, weight_softmax, class_idx):
 def returnTF():
 # load the image transformer
     tf = trn.Compose([
-        trn.Scale((224,224)),
+        trn.Resize((224,224)),
         trn.ToTensor(),
         trn.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
     ])

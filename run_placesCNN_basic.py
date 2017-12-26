@@ -36,7 +36,7 @@ model.eval()
 
 # load the image transformer
 centre_crop = trn.Compose([
-        trn.Scale(256),
+        trn.Resize((256,256)),
         trn.CenterCrop(224),
         trn.ToTensor(),
         trn.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
