@@ -1,5 +1,6 @@
 # PlacesCNN to predict the scene category, attribute, and class activation map in a single pass
 # by Bolei Zhou, sep 2, 2017
+# last modified date: Dec. 27, 2017, migrating everything to python36 and latest pytorch and torchvision
 
 import torch
 from torch.autograd import Variable as V
@@ -85,7 +86,7 @@ def returnTF():
 def load_model():
     # this model has a last conv feature map as 14x14
 
-    model_file = 'whole_wideresnet18_places365.pth.tar'
+    model_file = 'whole_wideresnet18_places365_python36.pth.tar'
     if not os.access(model_file, os.W_OK):
         os.system('wget http://places2.csail.mit.edu/models_places365/' + model_file)
         os.system('wget https://raw.githubusercontent.com/csailvision/places365/master/wideresnet.py')
@@ -95,12 +96,14 @@ def load_model():
     else:
         model = torch.load(model_file, map_location=lambda storage, loc: storage) # allow cpu
 
+    # the following is deprecated, everything is migrated to python36
+
     ## if you encounter the UnicodeDecodeError when use python3 to load the model, add the following line will fix it. Thanks to @soravux
-    # from functools import partial
-    # import pickle
-    # pickle.load = partial(pickle.load, encoding="latin1")
-    # pickle.Unpickler = partial(pickle.Unpickler, encoding="latin1")
-    # model = torch.load(model_file, map_location=lambda storage, loc: storage, pickle_module=pickle)
+    #from functools import partial
+    #import pickle
+    #pickle.load = partial(pickle.load, encoding="latin1")
+    #pickle.Unpickler = partial(pickle.Unpickler, encoding="latin1")
+    #model = torch.load(model_file, map_location=lambda storage, loc: storage, pickle_module=pickle)
 
     model.eval()
     # hook the feature extractor
@@ -136,29 +139,29 @@ logit = model.forward(input_img)
 h_x = F.softmax(logit).data.squeeze()
 probs, idx = h_x.sort(0, True)
 
-print 'RESULT ON ' + img_url
+print('RESULT ON ' + img_url)
 
 # output the IO prediction
 io_image = np.mean(labels_IO[idx[:10].numpy()]) # vote for the indoor or outdoor
 if io_image < 0.5:
-    print '--TYPE OF ENVIRONMENT: indoor'
+    print('--TYPE OF ENVIRONMENT: indoor')
 else:
-    print '--TYPE OF ENVIRONMENT: outdoor'
+    print('--TYPE OF ENVIRONMENT: outdoor')
 
 # output the prediction of scene category
-print '--SCENE CATEGORIES:'
+print('--SCENE CATEGORIES:')
 for i in range(0, 5):
     print('{:.3f} -> {}'.format(probs[i], classes[idx[i]]))
 
 # output the scene attributes
 responses_attribute = W_attribute.dot(features_blobs[1])
 idx_a = np.argsort(responses_attribute)
-print '--SCENE ATTRIBUTES:'
-print ', '.join([labels_attribute[idx_a[i]] for i in range(-1,-10,-1)])
+print('--SCENE ATTRIBUTES:')
+print(', '.join([labels_attribute[idx_a[i]] for i in range(-1,-10,-1)]))
 
 
 # generate class activation mapping
-print 'Class activation map is saved as cam.jpg'
+print('Class activation map is saved as cam.jpg')
 CAMs = returnCAM(features_blobs[0], weight_softmax, [idx[0]])
 
 # render the CAM and output
