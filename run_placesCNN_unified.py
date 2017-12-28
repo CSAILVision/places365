@@ -136,7 +136,7 @@ input_img = V(tf(img).unsqueeze(0), volatile=True)
 
 # forward pass
 logit = model.forward(input_img)
-h_x = F.softmax(logit).data.squeeze()
+h_x = F.softmax(logit, 1).data.squeeze()
 probs, idx = h_x.sort(0, True)
 
 print('RESULT ON ' + img_url)
