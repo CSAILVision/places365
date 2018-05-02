@@ -15,27 +15,17 @@ from PIL import Image
 arch = 'resnet18'
 
 # load the pre-trained weights
-model_file = 'whole_%s_places365_python36.pth.tar' % arch
+model_file = '%s_places365.pth.tar' % arch
 if not os.access(model_file, os.W_OK):
     weight_url = 'http://places2.csail.mit.edu/models_places365/' + model_file
     os.system('wget ' + weight_url)
 
-useGPU = 1
-if useGPU == 1:
-    model = torch.load(model_file)
-else:
-    model = torch.load(model_file, map_location=lambda storage, loc: storage) # model trained in GPU could be deployed in CPU machine like this!
-
-## assume all the script in python36, so the following is not necessary
-## if you encounter the UnicodeDecodeError when use python3 to load the model, add the following line will fix it. Thanks to @soravux
-#from functools import partial
-#import pickle
-#pickle.load = partial(pickle.load, encoding="latin1")
-#pickle.Unpickler = partial(pickle.Unpickler, encoding="latin1")
-#model = torch.load(model_file, map_location=lambda storage, loc: storage, pickle_module=pickle)
-#torch.save(model, 'whole_%s_places365_python36.pth.tar'%arch)
-
+model = models.__dict__[arch](num_classes=365)
+checkpoint = torch.load(model_file, map_location=lambda storage, loc: storage)
+state_dict = {str.replace(k,'module.',''): v for k,v in checkpoint['state_dict'].items()}
+model.load_state_dict(state_dict)
 model.eval()
+
 
 # load the image transformer
 centre_crop = trn.Compose([
@@ -63,7 +53,7 @@ if not os.access(img_name, os.W_OK):
     os.system('wget ' + img_url)
 
 img = Image.open(img_name)
-input_img = V(centre_crop(img).unsqueeze(0), volatile=True)
+input_img = V(centre_crop(img).unsqueeze(0))
 
 # forward pass
 logit = model.forward(input_img)
