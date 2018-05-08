@@ -1,6 +1,5 @@
 # PlacesCNN to predict the scene category, attribute, and class activation map in a single pass
 # by Bolei Zhou, sep 2, 2017
-# last modified date: Dec. 27, 2017, migrating everything to python36 and latest pytorch and torchvision
 
 import torch
 from torch.autograd import Variable as V
@@ -10,7 +9,7 @@ from torch.nn import functional as F
 import os
 import numpy as np
 from scipy.misc import imresize as imresize
-#import cv2
+import cv2
 from PIL import Image
 
 
