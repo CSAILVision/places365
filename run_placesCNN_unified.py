@@ -10,7 +10,7 @@ from torch.nn import functional as F
 import os
 import numpy as np
 from scipy.misc import imresize as imresize
-import cv2
+#import cv2
 from PIL import Image
 
 
@@ -133,7 +133,7 @@ weight_softmax = params[-2].data.numpy()
 weight_softmax[weight_softmax<0] = 0
 
 # load the test image
-img_url = 'http://places2.csail.mit.edu/imgs/12.jpg'
+img_url = 'http://places.csail.mit.edu/demo/6.jpg'
 os.system('wget %s -q -O test.jpg' % img_url)
 img = Image.open('test.jpg')
 input_img = V(tf(img).unsqueeze(0))
