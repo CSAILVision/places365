@@ -18,7 +18,7 @@ The data Places365-Standard and Places365-Challenge are released at [Places2 web
 	require 'loadcaffe'
 	model = loadcaffe.load('deploy_alexnet_places365.prototxt', 'alexnet_places365.caffemodel', 'cudnn')
 ```
-* PyTorch Places365 models: [AlexNet](http://places2.csail.mit.edu/models_places365/alexnet_places365_python36.pth.tar), [ResNet18](http://places2.csail.mit.edu/models_places365/resnet18_places365_python36.pth.tar), [ResNet50](http://places2.csail.mit.edu/models_places365/resnet50_places365_python36.pth.tar), [DenseNet161](http://places2.csail.mit.edu/models_places365/densenet161_places365_python36.pth.tar). The models are trained in Python2.7+PyTorch 0.2, see [this issue](https://github.com/CSAILVision/places365/issues/25) if you run into some format errors. **You don't need to untar the pytorch model files, refer to the following placesCNN demo code to see how to load the model**. Run [basic code](run_placesCNN_basic.py) to get the scene prediction from PlacesCNN:
+* PyTorch Places365 models: [AlexNet](http://places2.csail.mit.edu/models_places365/alexnet_places365.pth.tar), [ResNet18](http://places2.csail.mit.edu/models_places365/resnet18_places365.pth.tar), [ResNet50](http://places2.csail.mit.edu/models_places365/resnet50_places365.pth.tar), [DenseNet161](http://places2.csail.mit.edu/models_places365/densenet161_places365.pth.tar). The models are trained in Python2.7+PyTorch 0.2, see [this issue](https://github.com/CSAILVision/places365/issues/25) if you run into some format errors. **You don't need to untar the pytorch model files, refer to the following placesCNN demo code to see how to load the model**. Run [basic code](run_placesCNN_basic.py) to get the scene prediction from PlacesCNN:
 ```
     python run_placesCNN_basic.py
 
