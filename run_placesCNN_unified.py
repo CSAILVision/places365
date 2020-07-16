@@ -1,5 +1,6 @@
 # PlacesCNN to predict the scene category, attribute, and class activation map in a single pass
 # by Bolei Zhou, sep 2, 2017
+# updated, making it compatible to pytorch 1.x in a hacky way
 
 import torch
 from torch.autograd import Variable as V
@@ -11,6 +12,15 @@ import numpy as np
 import cv2
 from PIL import Image
 
+
+ # hacky way to deal with the Pytorch 1.0 update
+def recursion_change_bn(module):
+    if isinstance(module, torch.nn.BatchNorm2d):
+        module.track_running_stats = 1
+    else:
+        for i, (name, module1) in enumerate(module._modules.items()):
+            module1 = recursion_change_bn(module1)
+    return module
 
 def load_labels():
     # prepare all the labels
@@ -94,6 +104,12 @@ def load_model():
     checkpoint = torch.load(model_file, map_location=lambda storage, loc: storage)
     state_dict = {str.replace(k,'module.',''): v for k,v in checkpoint['state_dict'].items()}
     model.load_state_dict(state_dict)
+    
+    # hacky way to deal with the upgraded batchnorm2D and avgpool layers...
+    for i, (name, module) in enumerate(model._modules.items()):
+        module = recursion_change_bn(model)
+    model.avgpool = torch.nn.AvgPool2d(kernel_size=14, stride=1, padding=0)
+    
     model.eval()
 
 
