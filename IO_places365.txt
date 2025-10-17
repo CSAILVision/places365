@@ -69,7 +69,7 @@
 /b/bullring 2
 /b/burial_chamber 1
 /b/bus_interior 1
-/b/bus_station/indoor 2
+/b/bus_station/indoor 1
 /b/butchers_shop 1
 /b/butte 2
 /c/cabin/outdoor 2
